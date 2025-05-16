@@ -1,0 +1,7 @@
+Citizen Kane
+rate: 8.3
+director: Orson Welles
+writers: Herman J. Mankiewicz/Orson Welles/John Houseman
+stars: Orson Welles/Joseph Cotten/Dorothy Comingore
+Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'
+url: https://www.imdb.com/title/tt0033467/?ref_=chttp_t_108

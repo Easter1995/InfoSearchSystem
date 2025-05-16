@@ -1,0 +1,7 @@
+North by Northwest
+rate: 8.3
+director: Alfred Hitchcock
+writers: Ernest Lehman
+stars: Cary Grant/Eva Marie Saint/James Mason
+A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt.
+url: https://www.imdb.com/title/tt0053125/?ref_=chttp_t_106

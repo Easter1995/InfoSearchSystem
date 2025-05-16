@@ -1,0 +1,7 @@
+Modern Times
+rate: 8.5
+director: Charles Chaplin
+writers: Charles Chaplin
+stars: Charles Chaplin/Paulette Goddard/Henry Bergman
+The Tramp struggles to live in modern industrial society with the help of a young homeless woman.
+url: https://www.imdb.com/title/tt0027977/?ref_=chttp_t_50

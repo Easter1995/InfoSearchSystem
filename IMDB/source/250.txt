@@ -1,0 +1,7 @@
+The Godfather
+rate: 9.2
+director: Francis Ford Coppola
+writers: Mario Puzo/Francis Ford Coppola
+stars: Marlon Brando/Al Pacino/James Caan
+The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+url: https://www.imdb.com/title/tt0068646/?ref_=chttp_t_2

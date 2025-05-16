@@ -1,0 +1,7 @@
+Hotel Rwanda
+rate: 8.1
+director: Terry George
+writers: Keir Pearson/Terry George
+stars: Don Cheadle/Sophie Okonedo/Joaquin Phoenix
+Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa.
+url: https://www.imdb.com/title/tt0395169/?ref_=chttp_t_225

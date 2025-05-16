@@ -1,0 +1,7 @@
+V for Vendetta
+rate: 8.1
+director: James McTeigue
+writers: Lilly Wachowski/Lana Wachowski/David Lloyd
+stars: Hugo Weaving/Natalie Portman/Rupert Graves
+In a future British dystopian society, a shadowy freedom fighter, known only by the alias of "V", plots to overthrow the tyrannical government - with the help of a young woman.
+url: https://www.imdb.com/title/tt0434409/?ref_=chttp_t_168

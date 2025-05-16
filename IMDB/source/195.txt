@@ -1,0 +1,7 @@
+Memento
+rate: 8.4
+director: Christopher Nolan
+writers: Christopher Nolan/Jonathan Nolan
+stars: Guy Pearce/Carrie-Anne Moss/Joe Pantoliano
+A former insurance investigator who now suffers from anterograde amnesia uses notes and tattoos to hunt down his wife's murderer.
+url: https://www.imdb.com/title/tt0209144/?ref_=chttp_t_58

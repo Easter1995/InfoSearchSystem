@@ -1,0 +1,7 @@
+Ikiru
+rate: 8.3
+director: Akira Kurosawa
+writers: Akira Kurosawa/Shinobu Hashimoto/Hideo Oguni
+stars: Takashi Shimura/Nobuo Kaneko/Shin'ichi Himori
+A bureaucrat tries to find meaning in his life after he discovers he has terminal cancer.
+url: https://www.imdb.com/title/tt0044741/?ref_=chttp_t_96

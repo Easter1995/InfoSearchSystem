@@ -1,0 +1,7 @@
+Jurassic Park
+rate: 8.2
+director: Steven Spielberg
+writers: Michael Crichton/David Koepp
+stars: Sam Neill/Laura Dern/Jeff Goldblum
+An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in...
+url: https://www.imdb.com/title/tt0107290/?ref_=chttp_t_141

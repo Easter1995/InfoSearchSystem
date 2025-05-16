@@ -1,0 +1,7 @@
+Rebecca
+rate: 8.1
+director: Alfred Hitchcock
+writers: Daphne Du Maurier/Robert E. Sherwood/Joan Harrison
+stars: Laurence Olivier/Joan Fontaine/George Sanders
+A self-conscious woman juggles adjusting to her new role as an aristocrat's wife and avoiding being intimidated by his first wife's spectral presence.
+url: https://www.imdb.com/title/tt0032976/?ref_=chttp_t_249

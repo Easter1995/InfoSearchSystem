@@ -1,0 +1,7 @@
+Aliens
+rate: 8.4
+director: James Cameron
+writers: James Cameron/David Giler/Walter Hill
+stars: Sigourney Weaver/Michael Biehn/Carrie Henn
+Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.
+url: https://www.imdb.com/title/tt0090605/?ref_=chttp_t_70

@@ -1,0 +1,7 @@
+The Apartment
+rate: 8.3
+director: Billy Wilder
+writers: Billy Wilder/I.A.L. Diamond
+stars: Jack Lemmon/Shirley MacLaine/Fred MacMurray
+A Manhattan insurance clerk tries to rise in his company by letting its executives use his apartment for trysts, but office politics and his own romantic hopes complicate matters.
+url: https://www.imdb.com/title/tt0053604/?ref_=chttp_t_100

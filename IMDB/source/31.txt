@@ -1,0 +1,7 @@
+Room
+rate: 8.1
+director: Lenny Abrahamson
+writers: Emma Donoghue
+stars: Brie Larson/Jacob Tremblay/Sean Bridgers
+A little boy is held captive in a room with his mother since his birth, so he has never known the world outside.
+url: https://www.imdb.com/title/tt3170832/?ref_=chttp_t_222

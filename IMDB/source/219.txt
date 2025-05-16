@@ -1,0 +1,7 @@
+Gladiator
+rate: 8.5
+director: Ridley Scott
+writers: David Franzoni/John Logan/William Nicholson
+stars: Russell Crowe/Joaquin Phoenix/Connie Nielsen
+A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.
+url: https://www.imdb.com/title/tt0172495/?ref_=chttp_t_33

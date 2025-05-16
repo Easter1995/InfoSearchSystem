@@ -1,0 +1,7 @@
+Oppenheimer
+rate: 8.3
+director: Christopher Nolan
+writers: Christopher Nolan/Kai Bird/Martin Sherwin
+stars: Cillian Murphy/Emily Blunt/Matt Damon
+A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II.
+url: https://www.imdb.com/title/tt15398776/?ref_=chttp_t_120

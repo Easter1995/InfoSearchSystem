@@ -1,0 +1,7 @@
+Barry Lyndon
+rate: 8.1
+director: Stanley Kubrick
+writers: Stanley Kubrick/William Makepeace Thackeray
+stars: Ryan O'Neal/Marisa Berenson/Patrick Magee
+An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.
+url: https://www.imdb.com/title/tt0072684/?ref_=chttp_t_185

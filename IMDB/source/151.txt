@@ -1,0 +1,7 @@
+Lawrence of Arabia
+rate: 8.3
+director: David Lean
+writers: Robert Bolt/Michael Wilson
+stars: Peter O'Toole/Alec Guinness/Anthony Quinn
+The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.
+url: https://www.imdb.com/title/tt0056172/?ref_=chttp_t_102

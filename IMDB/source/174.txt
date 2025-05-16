@@ -1,0 +1,7 @@
+Das Boot
+rate: 8.4
+director: Wolfgang Petersen
+writers: Wolfgang Petersen/Lothar G. Buchheim
+stars: Jürgen Prochnow/Herbert Grönemeyer/Klaus Wennemann
+A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic life of a submariner in World War II.
+url: https://www.imdb.com/title/tt0082096/?ref_=chttp_t_79

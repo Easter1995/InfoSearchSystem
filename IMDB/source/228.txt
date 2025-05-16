@@ -1,0 +1,7 @@
+Saving Private Ryan
+rate: 8.6
+director: Steven Spielberg
+writers: Robert Rodat
+stars: Tom Hanks/Matt Damon/Tom Sizemore
+Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.
+url: https://www.imdb.com/title/tt0120815/?ref_=chttp_t_24

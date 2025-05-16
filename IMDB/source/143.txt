@@ -1,0 +1,7 @@
+Full Metal Jacket
+rate: 8.2
+director: Stanley Kubrick
+writers: Stanley Kubrick/Michael Herr/Gustav Hasford
+stars: Matthew Modine/R. Lee Ermey/Vincent D'Onofrio
+A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.
+url: https://www.imdb.com/title/tt0093058/?ref_=chttp_t_110

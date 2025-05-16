@@ -1,0 +1,7 @@
+Ratatouille
+rate: 8.1
+director: Brad Bird
+writers: Brad Bird/Jan Pinkava/Jim Capobianco
+stars: Brad Garrett/Lou Romano/Patton Oswalt
+A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.
+url: https://www.imdb.com/title/tt0382932/?ref_=chttp_t_195

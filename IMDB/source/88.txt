@@ -1,0 +1,7 @@
+Chinatown
+rate: 8.1
+director: Roman Polanski
+writers: Robert Towne/Roman Polanski
+stars: Jack Nicholson/Faye Dunaway/John Huston
+A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder.
+url: https://www.imdb.com/title/tt0071315/?ref_=chttp_t_165

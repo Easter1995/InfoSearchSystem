@@ -1,0 +1,7 @@
+Sunset Boulevard
+rate: 8.4
+director: Billy Wilder
+writers: Charles Brackett/Billy Wilder/D.M. Marshman Jr.
+stars: William Holden/Gloria Swanson/Erich von Stroheim
+A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.
+url: https://www.imdb.com/title/tt0043014/?ref_=chttp_t_62

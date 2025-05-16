@@ -1,0 +1,7 @@
+M - Eine Stadt sucht einen Mörder
+rate: 8.3
+director: Fritz Lang
+writers: Thea von Harbou/Fritz Lang/Egon Jacobsohn
+stars: Peter Lorre/Ellen Widmann/Inge Landgut
+When the police in a German city are unable to catch a child-murderer, other criminals join in the manhunt.
+url: https://www.imdb.com/title/tt0022100/?ref_=chttp_t_109

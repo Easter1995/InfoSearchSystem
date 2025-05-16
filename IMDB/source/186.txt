@@ -1,0 +1,7 @@
+The Great Dictator
+rate: 8.4
+director: Charles Chaplin
+writers: Charles Chaplin
+stars: Charles Chaplin/Paulette Goddard/Jack Oakie
+Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.
+url: https://www.imdb.com/title/tt0032553/?ref_=chttp_t_67

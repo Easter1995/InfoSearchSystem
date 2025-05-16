@@ -1,0 +1,7 @@
+Groundhog Day
+rate: 8.0
+director: Harold Ramis
+writers: Danny Rubin/Harold Ramis
+stars: Bill Murray/Andie MacDowell/Chris Elliott
+A narcissistic, self-centered weatherman finds himself in a time loop on Groundhog Day.
+url: https://www.imdb.com/title/tt0107048/?ref_=chttp_t_246

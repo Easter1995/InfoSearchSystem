@@ -1,0 +1,7 @@
+The Shawshank Redemption
+rate: 9.3
+director: Frank Darabont
+writers: Stephen King/Frank Darabont
+stars: Tim Robbins/Morgan Freeman/Bob Gunton
+A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion.
+url: https://www.imdb.com/title/tt0111161/?ref_=chttp_t_1

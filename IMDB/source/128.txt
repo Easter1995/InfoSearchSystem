@@ -1,0 +1,7 @@
+Ladri di biciclette
+rate: 8.2
+director: Vittorio De Sica
+writers: Cesare Zavattini/Luigi Bartolini/Oreste Biancoli
+stars: Lamberto Maggiorani/Enzo Staiola/Lianella Carell
+In post-war Italy, a working-class man's bicycle is stolen, endangering his efforts to find work. He and his son set out to find it.
+url: https://www.imdb.com/title/tt0040522/?ref_=chttp_t_125

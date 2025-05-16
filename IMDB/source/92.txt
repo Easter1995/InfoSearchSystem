@@ -1,0 +1,7 @@
+Dial M for Murder
+rate: 8.2
+director: Alfred Hitchcock
+writers: Frederick Knott
+stars: Ray Milland/Grace Kelly/Robert Cummings
+A London playboy plots the perfect murder of his rich, unfaithful Wife.
+url: https://www.imdb.com/title/tt0046912/?ref_=chttp_t_161

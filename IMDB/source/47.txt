@@ -1,0 +1,7 @@
+The General
+rate: 8.1
+director: Clyde Bruckman
+writers: Buster Keaton/Clyde Bruckman/Al Boasberg
+stars: Buster Keaton/Marion Mack/Glen Cavender
+After being rejected by the Confederate military, not realizing it was due to his crucial civilian role, an engineer must single-handedly recapture his beloved locomotive after it is seized ...
+url: https://www.imdb.com/title/tt0017925/?ref_=chttp_t_206

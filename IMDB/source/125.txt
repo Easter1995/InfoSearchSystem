@@ -1,0 +1,7 @@
+The Wolf of Wall Street
+rate: 8.2
+director: Martin Scorsese
+writers: Terence Winter/Jordan Belfort
+stars: Leonardo DiCaprio/Jonah Hill/Margot Robbie
+Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.
+url: https://www.imdb.com/title/tt0993846/?ref_=chttp_t_128

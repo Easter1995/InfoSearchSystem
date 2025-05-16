@@ -1,0 +1,7 @@
+The Departed
+rate: 8.5
+director: Martin Scorsese
+writers: William Monahan/Alan Mak/Felix Chong
+stars: Leonardo DiCaprio/Matt Damon/Jack Nicholson
+An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.
+url: https://www.imdb.com/title/tt0407887/?ref_=chttp_t_38

@@ -1,0 +1,7 @@
+Rear Window
+rate: 8.5
+director: Alfred Hitchcock
+writers: John Michael Hayes/Cornell Woolrich
+stars: James Stewart/Grace Kelly/Wendell Corey
+A bored photographer recovering from a broken leg passes the time by watching his neighbors and begins to suspect one of them of murder.
+url: https://www.imdb.com/title/tt0047396/?ref_=chttp_t_51

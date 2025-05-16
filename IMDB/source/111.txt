@@ -1,0 +1,7 @@
+There Will Be Blood
+rate: 8.2
+director: Paul Thomas Anderson
+writers: Paul Thomas Anderson/Upton Sinclair
+stars: Daniel Day-Lewis/Paul Dano/Ciarán Hinds
+A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.
+url: https://www.imdb.com/title/tt0469494/?ref_=chttp_t_142

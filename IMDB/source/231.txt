@@ -1,0 +1,7 @@
+It's a Wonderful Life
+rate: 8.6
+director: Frank Capra
+writers: Frances Goodrich/Albert Hackett/Frank Capra
+stars: James Stewart/Donna Reed/Lionel Barrymore
+An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.
+url: https://www.imdb.com/title/tt0038650/?ref_=chttp_t_21

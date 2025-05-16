@@ -1,0 +1,7 @@
+Se7en
+rate: 8.6
+director: David Fincher
+writers: Andrew Kevin Walker
+stars: Morgan Freeman/Brad Pitt/Kevin Spacey
+Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.
+url: https://www.imdb.com/title/tt0114369/?ref_=chttp_t_20

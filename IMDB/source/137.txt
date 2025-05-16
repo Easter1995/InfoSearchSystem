@@ -1,0 +1,7 @@
+A Clockwork Orange
+rate: 8.2
+director: Stanley Kubrick
+writers: Stanley Kubrick/Anthony Burgess
+stars: Malcolm McDowell/Patrick Magee/Michael Bates
+Alex DeLarge and his droogs barbarize a decaying near-future.
+url: https://www.imdb.com/title/tt0066921/?ref_=chttp_t_116

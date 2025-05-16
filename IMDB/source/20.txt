@@ -1,0 +1,7 @@
+The Incredibles
+rate: 8.0
+director: Brad Bird
+writers: Brad Bird
+stars: Craig T. Nelson/Samuel L. Jackson/Holly Hunter
+While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.
+url: https://www.imdb.com/title/tt0317705/?ref_=chttp_t_233

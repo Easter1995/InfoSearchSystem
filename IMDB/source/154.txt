@@ -1,0 +1,7 @@
+Reservoir Dogs
+rate: 8.3
+director: Quentin Tarantino
+writers: Quentin Tarantino/Roger Avary
+stars: Harvey Keitel/Tim Roth/Michael Madsen
+When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.
+url: https://www.imdb.com/title/tt0105236/?ref_=chttp_t_99

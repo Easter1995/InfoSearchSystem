@@ -1,0 +1,7 @@
+Léon
+rate: 8.5
+director: Luc Besson
+writers: Luc Besson
+stars: Jean Reno/Gary Oldman/Natalie Portman
+An Italian hit man protects a New York orphan.
+url: https://www.imdb.com/title/tt0110413/?ref_=chttp_t_43

@@ -1,0 +1,7 @@
+Good Will Hunting
+rate: 8.3
+director: Gus Van Sant
+writers: Matt Damon/Ben Affleck
+stars: Robin Williams/Matt Damon/Ben Affleck
+Will Hunting, a janitor at MIT, has a gift for mathematics, but needs help from a psychologist to find direction in his life.
+url: https://www.imdb.com/title/tt0119217/?ref_=chttp_t_76

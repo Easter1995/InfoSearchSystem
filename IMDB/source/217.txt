@@ -1,0 +1,7 @@
+Psycho
+rate: 8.5
+director: Alfred Hitchcock
+writers: Joseph Stefano/Robert Bloch
+stars: Anthony Perkins/Janet Leigh/Vera Miles
+A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother.
+url: https://www.imdb.com/title/tt0054215/?ref_=chttp_t_35

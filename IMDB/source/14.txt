@@ -1,0 +1,7 @@
+The Iron Giant
+rate: 8.1
+director: Brad Bird
+writers: Tim McCanlies/Brad Bird/Ted Hughes
+stars: Eli Marienthal/Harry Connick Jr./Jennifer Aniston
+A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.
+url: https://www.imdb.com/title/tt0129167/?ref_=chttp_t_239

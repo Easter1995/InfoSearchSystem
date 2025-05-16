@@ -1,0 +1,7 @@
+The Sixth Sense
+rate: 8.2
+director: M. Night Shyamalan
+writers: M. Night Shyamalan
+stars: Bruce Willis/Haley Joel Osment/Toni Collette
+After being shot by a resentful former patient whom he failed to help, a Philadelphia child psychologist seeks redemption by treating a young boy with a disturbing secret.
+url: https://www.imdb.com/title/tt0167404/?ref_=chttp_t_143

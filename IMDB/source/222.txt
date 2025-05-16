@@ -1,0 +1,7 @@
+Back to the Future
+rate: 8.5
+director: Robert Zemeckis
+writers: Robert Zemeckis/Bob Gale
+stars: Michael J. Fox/Christopher Lloyd/Lea Thompson
+Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
+url: https://www.imdb.com/title/tt0088763/?ref_=chttp_t_30

@@ -1,0 +1,7 @@
+The Sound of Music
+rate: 8.1
+director: Robert Wise
+writers: Georg Hurdalek/Howard Lindsay/Russel Crouse
+stars: Julie Andrews/Christopher Plummer/Eleanor Parker
+A young novice is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.
+url: https://www.imdb.com/title/tt0059742/?ref_=chttp_t_230

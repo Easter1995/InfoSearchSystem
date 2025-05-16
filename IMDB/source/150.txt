@@ -1,0 +1,7 @@
+Scarface
+rate: 8.3
+director: Brian De Palma
+writers: Oliver Stone/Howard Hawks/Ben Hecht
+stars: Al Pacino/Michelle Pfeiffer/Steven Bauer
+In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction.
+url: https://www.imdb.com/title/tt0086250/?ref_=chttp_t_103

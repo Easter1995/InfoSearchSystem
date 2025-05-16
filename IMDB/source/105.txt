@@ -1,0 +1,7 @@
+The Thing
+rate: 8.2
+director: John Carpenter
+writers: Bill Lancaster/John W. Campbell Jr.
+stars: Kurt Russell/Wilford Brimley/Keith David
+A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.
+url: https://www.imdb.com/title/tt0084787/?ref_=chttp_t_148

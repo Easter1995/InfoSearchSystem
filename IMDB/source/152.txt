@@ -1,0 +1,7 @@
+Incendies
+rate: 8.3
+director: Denis Villeneuve
+writers: Wajdi Mouawad/Denis Villeneuve/Valérie Beaugrand-Champagne
+stars: Lubna Azabal/Mélissa Désormeaux-Poulin/Maxim Gaudette
+Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.
+url: https://www.imdb.com/title/tt1255953/?ref_=chttp_t_101

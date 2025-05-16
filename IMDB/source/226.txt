@@ -1,0 +1,7 @@
+The Green Mile
+rate: 8.6
+director: Frank Darabont
+writers: Stephen King/Frank Darabont
+stars: Tom Hanks/Michael Clarke Duncan/David Morse
+A death row guard learns that a gentle giant in his charge possesses a mysterious gift.
+url: https://www.imdb.com/title/tt0120689/?ref_=chttp_t_26

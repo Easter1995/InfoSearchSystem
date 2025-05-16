@@ -1,0 +1,7 @@
+Fight Club
+rate: 8.8
+director: David Fincher
+writers: Chuck Palahniuk/Jim Uhls
+stars: Brad Pitt/Edward Norton/Meat Loaf
+An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.
+url: https://www.imdb.com/title/tt0137523/?ref_=chttp_t_13

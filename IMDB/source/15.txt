@@ -1,0 +1,7 @@
+Network
+rate: 8.1
+director: Sidney Lumet
+writers: Paddy Chayefsky
+stars: Faye Dunaway/William Holden/Peter Finch
+A television network cynically exploits a deranged former anchor's ravings and revelations about mass media for its own profit, but finds that his message may be difficult to control.
+url: https://www.imdb.com/title/tt0074958/?ref_=chttp_t_238

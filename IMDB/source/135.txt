@@ -1,0 +1,7 @@
+The Sting
+rate: 8.2
+director: George Roy Hill
+writers: David S. Ward
+stars: Paul Newman/Robert Redford/Robert Shaw
+Two grifters team up to pull off the ultimate con.
+url: https://www.imdb.com/title/tt0070735/?ref_=chttp_t_118

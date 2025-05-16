@@ -1,0 +1,7 @@
+Before Sunrise
+rate: 8.1
+director: Richard Linklater
+writers: Richard Linklater/Kim Krizan
+stars: Ethan Hawke/Julie Delpy/Andrea Eckert
+A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.
+url: https://www.imdb.com/title/tt0112471/?ref_=chttp_t_189

@@ -1,0 +1,7 @@
+The Prestige
+rate: 8.5
+director: Christopher Nolan
+writers: Jonathan Nolan/Christopher Nolan/Christopher Priest
+stars: Christian Bale/Hugh Jackman/Scarlett Johansson
+Rival 19th-century magicians engage in a bitter battle for trade secrets.
+url: https://www.imdb.com/title/tt0482571/?ref_=chttp_t_41

@@ -1,0 +1,7 @@
+Double Indemnity
+rate: 8.3
+director: Billy Wilder
+writers: Billy Wilder/Raymond Chandler/James M. Cain
+stars: Fred MacMurray/Barbara Stanwyck/Edward G. Robinson
+An insurance representative is seduced by a dissatisfied housewife into a scheme of insurance fraud and murder that arouses the suspicion of his colleague, a claims investigator.
+url: https://www.imdb.com/title/tt0036775/?ref_=chttp_t_104

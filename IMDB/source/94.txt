@@ -1,0 +1,7 @@
+Monty Python and the Holy Grail
+rate: 8.2
+director: Terry Gilliam
+writers: Graham Chapman/John Cleese/Eric Idle
+stars: Graham Chapman/John Cleese/Eric Idle
+King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.
+url: https://www.imdb.com/title/tt0071853/?ref_=chttp_t_159

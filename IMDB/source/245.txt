@@ -1,0 +1,7 @@
+Schindler's List
+rate: 9.0
+director: Steven Spielberg
+writers: Thomas Keneally/Steven Zaillian
+stars: Liam Neeson/Ralph Fiennes/Ben Kingsley
+In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.
+url: https://www.imdb.com/title/tt0108052/?ref_=chttp_t_7

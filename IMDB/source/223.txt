@@ -1,0 +1,7 @@
+Star Wars
+rate: 8.6
+director: George Lucas
+writers: George Lucas
+stars: Mark Hamill/Harrison Ford/Carrie Fisher
+Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue ...
+url: https://www.imdb.com/title/tt0076759/?ref_=chttp_t_29

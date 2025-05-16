@@ -1,0 +1,7 @@
+Heat
+rate: 8.3
+director: Michael Mann
+writers: Michael Mann
+stars: Al Pacino/Robert De Niro/Val Kilmer
+A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist.
+url: https://www.imdb.com/title/tt0113277/?ref_=chttp_t_105

@@ -1,0 +1,7 @@
+Apocalypse Now
+rate: 8.4
+director: Francis Ford Coppola
+writers: John Milius/Francis Ford Coppola/Michael Herr
+stars: Martin Sheen/Marlon Brando/Robert Duvall
+A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.
+url: https://www.imdb.com/title/tt0078788/?ref_=chttp_t_55

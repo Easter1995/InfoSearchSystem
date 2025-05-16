@@ -1,0 +1,7 @@
+12 Angry Men
+rate: 9.0
+director: Sidney Lumet
+writers: Reginald Rose
+stars: Henry Fonda/Lee J. Cobb/Martin Balsam
+The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.
+url: https://www.imdb.com/title/tt0050083/?ref_=chttp_t_5

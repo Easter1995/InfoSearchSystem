@@ -1,0 +1,7 @@
+Star Wars: Episode VI - Return of the Jedi
+rate: 8.3
+director: Richard Marquand
+writers: Lawrence Kasdan/George Lucas
+stars: Mark Hamill/Harrison Ford/Carrie Fisher
+After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side.
+url: https://www.imdb.com/title/tt0086190/?ref_=chttp_t_93

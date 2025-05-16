@@ -1,0 +1,7 @@
+The Truman Show
+rate: 8.2
+director: Peter Weir
+writers: Andrew Niccol
+stars: Jim Carrey/Ed Harris/Laura Linney
+An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.
+url: https://www.imdb.com/title/tt0120382/?ref_=chttp_t_134

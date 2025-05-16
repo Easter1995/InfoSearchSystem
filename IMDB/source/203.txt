@@ -1,0 +1,7 @@
+Alien
+rate: 8.5
+director: Ridley Scott
+writers: Dan O'Bannon/Ronald Shusett
+stars: Sigourney Weaver/Tom Skerritt/John Hurt
+After investigating a mysterious transmission of unknown origin, the crew of a commercial spacecraft encounters a deadly lifeform.
+url: https://www.imdb.com/title/tt0078748/?ref_=chttp_t_49

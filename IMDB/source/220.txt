@@ -1,0 +1,7 @@
+The Pianist
+rate: 8.5
+director: Roman Polanski
+writers: Ronald Harwood/Wladyslaw Szpilman
+stars: Adrien Brody/Thomas Kretschmann/Frank Finlay
+During WWII, acclaimed Polish musician Wladyslaw faces various struggles as he loses contact with his family. As the situation worsens, he hides in the ruins of Warsaw in order to survive.
+url: https://www.imdb.com/title/tt0253474/?ref_=chttp_t_32

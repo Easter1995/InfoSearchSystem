@@ -1,0 +1,7 @@
+Before Sunset
+rate: 8.1
+director: Richard Linklater
+writers: Richard Linklater/Julie Delpy/Ethan Hawke
+stars: Ethan Hawke/Julie Delpy/Vernon Dobtcheff
+Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.
+url: https://www.imdb.com/title/tt0381681/?ref_=chttp_t_228

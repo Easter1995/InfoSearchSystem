@@ -1,0 +1,7 @@
+Amores perros
+rate: 8.0
+director: Alejandro G. Iñárritu
+writers: Guillermo Arriaga
+stars: Emilio Echevarría/Gael García Bernal/Goya Toledo
+An amateur dog fighter, a supermodel, and a derelict assassin, all separately struggling to find love, find their lives transformed by a devastating car wreck in Mexico City.
+url: https://www.imdb.com/title/tt0245712/?ref_=chttp_t_248

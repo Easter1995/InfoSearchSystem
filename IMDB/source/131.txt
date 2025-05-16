@@ -1,0 +1,7 @@
+Snatch
+rate: 8.2
+director: Guy Ritchie
+writers: Guy Ritchie
+stars: Jason Statham/Brad Pitt/Stephen Graham
+Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.
+url: https://www.imdb.com/title/tt0208092/?ref_=chttp_t_122

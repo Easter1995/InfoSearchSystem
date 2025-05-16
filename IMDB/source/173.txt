@@ -1,0 +1,7 @@
+Braveheart
+rate: 8.3
+director: Mel Gibson
+writers: Randall Wallace
+stars: Mel Gibson/Sophie Marceau/Patrick McGoohan
+Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.
+url: https://www.imdb.com/title/tt0112573/?ref_=chttp_t_80

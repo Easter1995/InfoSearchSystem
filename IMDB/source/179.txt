@@ -1,0 +1,7 @@
+Toy Story
+rate: 8.3
+director: John Lasseter
+writers: John Lasseter/Pete Docter/Andrew Stanton
+stars: Tom Hanks/Tim Allen/Don Rickles
+A cowboy doll is profoundly jealous when a new spaceman action figure supplants him as the top toy in a boy's bedroom. When circumstances separate them from their owner, the duo have to put ...
+url: https://www.imdb.com/title/tt0114709/?ref_=chttp_t_74

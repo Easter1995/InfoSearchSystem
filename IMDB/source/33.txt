@@ -1,0 +1,7 @@
+Det sjunde inseglet
+rate: 8.1
+director: Ingmar Bergman
+writers: Ingmar Bergman
+stars: Max von Sydow/Gunnar Björnstrand/Bengt Ekerot
+A knight returning to Sweden after the Crusades seeks answers about life, death, and the existence of God as he plays chess against the Grim Reaper during the Black Plague.
+url: https://www.imdb.com/title/tt0050976/?ref_=chttp_t_220

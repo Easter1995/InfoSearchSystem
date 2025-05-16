@@ -1,0 +1,7 @@
+Fargo
+rate: 8.1
+director: Joel Coen
+writers: Ethan Coen/Joel Coen
+stars: William H. Macy/Frances McDormand/Steve Buscemi
+Minnesota car salesman Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of the quite pregnant Marge Gunderson.
+url: https://www.imdb.com/title/tt0116282/?ref_=chttp_t_176

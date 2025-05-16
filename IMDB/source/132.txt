@@ -1,0 +1,7 @@
+Metropolis
+rate: 8.3
+director: Fritz Lang
+writers: Thea von Harbou/Fritz Lang
+stars: Brigitte Helm/Alfred Abel/Gustav Fröhlich
+In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a...
+url: https://www.imdb.com/title/tt0017136/?ref_=chttp_t_121

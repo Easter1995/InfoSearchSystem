@@ -1,0 +1,7 @@
+The Third Man
+rate: 8.1
+director: Carol Reed
+writers: Graham Greene/Orson Welles/Alexander Korda
+stars: Orson Welles/Joseph Cotten/Alida Valli
+Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.
+url: https://www.imdb.com/title/tt0041959/?ref_=chttp_t_213

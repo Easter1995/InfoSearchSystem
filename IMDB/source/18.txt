@@ -1,0 +1,7 @@
+Rush
+rate: 8.1
+director: Ron Howard
+writers: Peter Morgan
+stars: Daniel Brühl/Chris Hemsworth/Olivia Wilde
+James Hunt and Niki Lauda, two extremely skilled Formula One racers, have an intense rivalry with each other. However, it is their enmity that pushes them to their limits.
+url: https://www.imdb.com/title/tt1979320/?ref_=chttp_t_235

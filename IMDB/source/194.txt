@@ -1,0 +1,7 @@
+Raiders of the Lost Ark
+rate: 8.4
+director: Steven Spielberg
+writers: Lawrence Kasdan/George Lucas/Philip Kaufman
+stars: Harrison Ford/Karen Allen/Paul Freeman
+In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first.
+url: https://www.imdb.com/title/tt0082971/?ref_=chttp_t_59

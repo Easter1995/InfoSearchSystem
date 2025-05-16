@@ -1,0 +1,7 @@
+Forrest Gump
+rate: 8.8
+director: Robert Zemeckis
+writers: Winston Groom/Eric Roth
+stars: Tom Hanks/Robin Wright/Gary Sinise
+The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.
+url: https://www.imdb.com/title/tt0109830/?ref_=chttp_t_11
