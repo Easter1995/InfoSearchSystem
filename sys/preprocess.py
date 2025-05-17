@@ -60,3 +60,19 @@ for i in range(250):
             text_vector[i].append(0)
 with open('json/text_vector.json', 'w') as f:
     f.write(json.dumps(text_vector))
+
+# 建立倒排序索引表
+reverse_index = {}
+for i in range(1, 251):
+    for j in range(len(raw_corpus[i - 1])):
+        word = raw_corpus[i - 1][j]
+        if word in key_words:
+            if not reverse_index.get(word):
+                reverse_index[word] = {}
+            word_index = reverse_index[word]
+            if not word_index.get(i):
+                word_index[i] = []
+            word_index[i].append(j) # word为第i篇文章的第j个词
+            reverse_index[word] = word_index
+with open('json/reverse_index.json', 'w') as f:
+    f.write(json.dumps(reverse_index))
