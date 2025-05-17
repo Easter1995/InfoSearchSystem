@@ -1,7 +1,7 @@
 Paths of Glory
 rate: 8.4
-director: Stanley Kubrick
-writers: Stanley Kubrick/Calder Willingham/Jim Thompson
-stars: Kirk Douglas/Ralph Meeker/Adolphe Menjou
-A colonel defends three of his soldiers in a court-martial after they abandon a suicidal attack.
+Stanley Kubrick
+Stanley Kubrick/Calder Willingham/Jim Thompson
+Kirk Douglas/Ralph Meeker/Adolphe Menjou
+The futility and irony of the war in the trenches in WWI is shown as a unit commander in the French army must deal with the mutiny of his men and a glory-seeking general after part of his force falls back under fire in an impossible attack.
 url: https://www.imdb.com/title/tt0050825/?ref_=chttp_t_65

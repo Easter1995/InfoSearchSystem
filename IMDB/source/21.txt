@@ -1,7 +1,7 @@
 The Wizard of Oz
 rate: 8.1
-director: Victor Fleming
-writers: Noel Langley/Florence Ryerson/Edgar Allan Woolf
-stars: Judy Garland/Frank Morgan/Ray Bolger
-Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz and embark on a quest with three new friends to see the Wizard, who can retur...
+Victor Fleming
+Noel Langley/Florence Ryerson/Edgar Allan Woolf
+Judy Garland/Frank Morgan/Ray Bolger
+When a tornado rips through Kansas, Dorothy Gale and her dog, Toto, are whisked away from their house to the magical Land of Oz. They follow the Yellow Brick Road to the Emerald City to meet the Wizard, and on the way, they meet a Scarecrow who wants a brain, a Tin Man who wants a heart, and a Cowardly Lion who wants courage. The Wizard asks them to bring him the Wicked Witch of the West's broom to earn his help.
 url: https://www.imdb.com/title/tt0032138/?ref_=chttp_t_232

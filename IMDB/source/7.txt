@@ -1,7 +1,7 @@
 Groundhog Day
 rate: 8.0
-director: Harold Ramis
-writers: Danny Rubin/Harold Ramis
-stars: Bill Murray/Andie MacDowell/Chris Elliott
-A narcissistic, self-centered weatherman finds himself in a time loop on Groundhog Day.
+Harold Ramis
+Danny Rubin/Harold Ramis
+Bill Murray/Andie MacDowell/Chris Elliott
+A weather man is reluctantly sent to cover a story about a weather forecasting "rat" (as he calls it). This is his fourth year on the story, and he makes no effort to hide his frustration. On awaking the 'following' day, he discovers that it's Groundhog Day again, and again, and again. First he uses this to his advantage, then comes the realisation that he is doomed to spend the rest of eternity in the same place, seeing the same people do the same thing every day.
 url: https://www.imdb.com/title/tt0107048/?ref_=chttp_t_246

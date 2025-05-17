@@ -1,7 +1,7 @@
 The Treasure of the Sierra Madre
 rate: 8.2
-director: John Huston
-writers: John Huston/B. Traven
-stars: Humphrey Bogart/Walter Huston/Tim Holt
-Two down-on-their-luck Americans searching for work in 1920s Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains.
+John Huston
+John Huston/B. Traven
+Humphrey Bogart/Walter Huston/Tim Holt
+Fred C. Dobbs and Bob Curtin, both down on their luck in Tampico, Mexico in 1925, meet up with a grizzled prospector named Howard and decide to join with him in search of gold in the wilds of central Mexico. Through enormous difficulties, they eventually succeed in finding gold, but bandits, the elements, and most especially greed threaten to turn their success into disaster.
 url: https://www.imdb.com/title/tt0040897/?ref_=chttp_t_153

@@ -1,7 +1,7 @@
 Raging Bull
 rate: 8.1
-director: Martin Scorsese
-writers: Jake LaMotta/Joseph Carter/Peter Savage
-stars: Robert De Niro/Cathy Moriarty/Joe Pesci
-The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.
+Martin Scorsese
+Jake LaMotta/Joseph Carter/Peter Savage
+Robert De Niro/Cathy Moriarty/Joe Pesci
+When
 url: https://www.imdb.com/title/tt0081398/?ref_=chttp_t_174

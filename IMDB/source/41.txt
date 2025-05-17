@@ -1,7 +1,7 @@
 Rocky
 rate: 8.1
-director: John G. Avildsen
-writers: Sylvester Stallone
-stars: Sylvester Stallone/Talia Shire/Burt Young
-A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.
+John G. Avildsen
+Sylvester Stallone
+Sylvester Stallone/Talia Shire/Burt Young
+Rocky Balboa is a struggling boxer trying to make the big time, working as a debt collector for a pittance. When heavyweight champion Apollo Creed visits Philadelphia, his managers want to set up an exhibition match between Creed and a struggling boxer, touting the fight as a chance for a "nobody" to become a "somebody". The match is supposed to be easily won by Creed, but someone forgot to tell Rocky, who sees this as his only shot at the big time.
 url: https://www.imdb.com/title/tt0075148/?ref_=chttp_t_212

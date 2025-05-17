@@ -1,7 +1,7 @@
 No Country for Old Men
 rate: 8.2
-director: Ethan Coen
-writers: Joel Coen/Ethan Coen/Cormac McCarthy
-stars: Tommy Lee Jones/Javier Bardem/Josh Brolin
-Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande.
+Ethan Coen
+Joel Coen/Ethan Coen/Cormac McCarthy
+Tommy Lee Jones/Javier Bardem/Josh Brolin
+In rural Texas, welder and hunter Llewelyn Moss (
 url: https://www.imdb.com/title/tt0477348/?ref_=chttp_t_147

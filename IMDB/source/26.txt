@@ -1,7 +1,7 @@
 The Best Years of Our Lives
 rate: 8.1
-director: William Wyler
-writers: Robert E. Sherwood/MacKinlay Kantor
-stars: Myrna Loy/Dana Andrews/Fredric March
-Three World War II veterans, two of them traumatized or disabled, return home to the American midwest to discover that they and their families have been irreparably changed.
+William Wyler
+Robert E. Sherwood/MacKinlay Kantor
+Myrna Loy/Dana Andrews/Fredric March
+The story concentrates on the social re-adjustment of three World War II servicemen, each from a different station of society. Al Stephenson returns to an influential banking position, but finds it hard to reconcile his loyalties to ex-servicemen with new commercial realities. Fred Derry is an ordinary working man who finds it difficult to hold down a job or pick up the threads of his marriage. Having lost both hands in a demolition training accident during the war, Homer Parrish is unsure that his fiancée's feelings are still those of love and not those of pity. Each of the veterans faces a crisis upon his arrival, and each crisis is a microcosm of the experiences of many American warriors who found an alien world awaiting them when they came marching home.
 url: https://www.imdb.com/title/tt0036868/?ref_=chttp_t_227

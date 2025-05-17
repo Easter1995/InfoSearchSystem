@@ -1,7 +1,7 @@
 Spider-Man: No Way Home
 rate: 8.2
-director: Jon Watts
-writers: Chris McKenna/Erik Sommers/Stan Lee
-stars: Tom Holland/Zendaya/Benedict Cumberbatch
-With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.
+Jon Watts
+Chris McKenna/Erik Sommers/Stan Lee
+Tom Holland/Zendaya/Benedict Cumberbatch
+Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.
 url: https://www.imdb.com/title/tt10872600/?ref_=chttp_t_184

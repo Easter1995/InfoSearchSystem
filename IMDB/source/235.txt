@@ -1,7 +1,7 @@
 GoodFellas
 rate: 8.7
-director: Martin Scorsese
-writers: Nicholas Pileggi/Martin Scorsese
-stars: Robert De Niro/Ray Liotta/Joe Pesci
-The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.
+Martin Scorsese
+Nicholas Pileggi/Martin Scorsese
+Robert De Niro/Ray Liotta/Joe Pesci
+Henry Hill might be a small time gangster, who may have taken part in a robbery with Jimmy Conway and Tommy De Vito, two other gangsters who might have set their sights a bit higher. His two partners could kill off everyone else involved in the robbery, and slowly start to think about climbing up through the hierarchy of the Mob. Henry, however, might be badly affected by his partners' success, but will he consider stooping low enough to bring about the downfall of Jimmy and Tommy?
 url: https://www.imdb.com/title/tt0099685/?ref_=chttp_t_17

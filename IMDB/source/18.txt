@@ -1,7 +1,7 @@
 Rush
 rate: 8.1
-director: Ron Howard
-writers: Peter Morgan
-stars: Daniel Brühl/Chris Hemsworth/Olivia Wilde
-James Hunt and Niki Lauda, two extremely skilled Formula One racers, have an intense rivalry with each other. However, it is their enmity that pushes them to their limits.
+Ron Howard
+Peter Morgan
+Daniel Brühl/Chris Hemsworth/Olivia Wilde
+Set against the sexy, glamorous golden age of Formula 1 racing in the 1970s, the film is based on the true story of a great sporting rivalry between handsome English playboy
 url: https://www.imdb.com/title/tt1979320/?ref_=chttp_t_235

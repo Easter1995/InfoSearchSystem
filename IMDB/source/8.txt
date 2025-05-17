@@ -1,7 +1,7 @@
 Into the Wild
 rate: 8.0
-director: Sean Penn
-writers: Sean Penn/Jon Krakauer
-stars: Emile Hirsch/Vince Vaughn/Catherine Keener
-After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska ...
+Sean Penn
+Sean Penn/Jon Krakauer
+Emile Hirsch/Vince Vaughn/Catherine Keener
+Based on a true story. After graduating from Emory University, Christopher McCandless abandoned his possessions, gave his entire savings account to charity, and hitchhiked to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters who shape his life.
 url: https://www.imdb.com/title/tt0758758/?ref_=chttp_t_245

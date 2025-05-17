@@ -1,7 +1,7 @@
 Indiana Jones and the Last Crusade
 rate: 8.2
-director: Steven Spielberg
-writers: Jeffrey Boam/George Lucas/Menno Meyjes
-stars: Harrison Ford/Sean Connery/Alison Doody
-In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers.
+Steven Spielberg
+Jeffrey Boam/George Lucas/Menno Meyjes
+Harrison Ford/Sean Connery/Alison Doody
+An art collector appeals to Indiana Jones to embark on a search for the Holy Grail. He learns that another archaeologist has disappeared while searching for the precious goblet, and the missing man is his own father, Dr. Henry Jones. The artifact is much harder to find than they expected, and its powers are too much for those impure of heart.
 url: https://www.imdb.com/title/tt0097576/?ref_=chttp_t_119

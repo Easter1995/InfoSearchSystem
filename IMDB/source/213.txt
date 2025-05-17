@@ -1,7 +1,7 @@
 Whiplash
 rate: 8.5
-director: Damien Chazelle
-writers: Damien Chazelle
-stars: Miles Teller/J.K. Simmons/Melissa Benoist
-A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.
+Damien Chazelle
+Damien Chazelle
+Miles Teller/J.K. Simmons/Melissa Benoist
+Nineteen-year-old Andrew Niemann wants to be the greatest jazz drummer in the world, in a league with
 url: https://www.imdb.com/title/tt2582802/?ref_=chttp_t_39

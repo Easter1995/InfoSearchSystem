@@ -1,7 +1,7 @@
 Per qualche dollaro in più
 rate: 8.2
-director: Sergio Leone
-writers: Sergio Leone/Fulvio Morsella/Luciano Vincenzoni
-stars: Clint Eastwood/Lee Van Cleef/Gian Maria Volontè
-Two bounty killers with similar intentions but different motivations team up to track down a psychotic Mexican outlaw before he and his gang can carry out an audacious bank robbery.
+Sergio Leone
+Sergio Leone/Fulvio Morsella/Luciano Vincenzoni
+Clint Eastwood/Lee Van Cleef/Gian Maria Volontè
+With his reputation preceding him after a white-knuckle duel eighteen months ago, a taciturn American bounty hunter rides into the godforsaken town of Tucumcari. After all, nothing can stop him--this time, the solitary stranger is after El Indio, a psychopathic bandit leader bent on destruction and mayhem. But the sadistic outlaw and his murderous jackals have already set their sights on robbing the impenetrable Bank of El Paso. As a result, the poncho-clad Americano has no choice but to break an unwritten personal rule: join forces with Colonel Douglas Mortimer, a hawk-eyed marksman with a hidden agenda. Now, two seasoned hunters, The Man with No Name and The Man in Black, are after the same prey. And as silent double-crosses and fragile allegiances pave the way for a bloody showdown at high noon, a question arises. Once, the nameless American risked life and limb for a fistful of dollars. Is it worth dicing with death for a few dollars more?
 url: https://www.imdb.com/title/tt0059578/?ref_=chttp_t_133

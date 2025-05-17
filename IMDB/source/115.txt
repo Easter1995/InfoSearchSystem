@@ -1,7 +1,7 @@
 The Kid
 rate: 8.2
-director: Charles Chaplin
-writers: Charles Chaplin
-stars: Charles Chaplin/Edna Purviance/Jackie Coogan
-The Tramp cares for an abandoned child, but events put their relationship in jeopardy.
+Charles Chaplin
+Charles Chaplin
+Charles Chaplin/Edna Purviance/Jackie Coogan
+A woman decides to abandon her baby in the backseat of an automobile with a handwritten note attached, beseeching the finder to care for and love the child. The baby is discovered by the initially-reluctant Tramp, who eventually softens and comes to love him as his own. As the boy grows up, both he and The Tramp must learn to navigate through a life that spawns one adventure after another.
 url: https://www.imdb.com/title/tt0012349/?ref_=chttp_t_138

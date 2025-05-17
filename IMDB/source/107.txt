@@ -1,7 +1,7 @@
 Top Gun: Maverick
 rate: 8.2
-director: Joseph Kosinski
-writers: Jim Cash/Jack Epps Jr./Peter Craig
-stars: Tom Cruise/Jennifer Connelly/Miles Teller
-The story involves Maverick confronting his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission.
+Joseph Kosinski
+Jim Cash/Jack Epps Jr./Peter Craig
+Tom Cruise/Jennifer Connelly/Miles Teller
+Set 30 years after its predecessor, it follows Maverick's return to the United States Navy Strike Fighter Tactics Instructor program (also known as U.S. Navy-Fighter Weapons School - "TOPGUN"), where he must confront his past as he trains a group of younger pilots, among them the son of Maverick's deceased best friend Lieutenant Nick "Goose" Bradshaw, USN.
 url: https://www.imdb.com/title/tt1745960/?ref_=chttp_t_146

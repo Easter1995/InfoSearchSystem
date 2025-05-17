@@ -1,7 +1,7 @@
 The Lord of the Rings: The Return of the King
 rate: 9.0
-director: Peter Jackson
-writers: J.R.R. Tolkien/Fran Walsh/Philippa Boyens
-stars: Elijah Wood/Viggo Mortensen/Ian McKellen
-Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.
+Peter Jackson
+J.R.R. Tolkien/Fran Walsh/Philippa Boyens
+Elijah Wood/Viggo Mortensen/Ian McKellen
+The final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Frodo and Sam reach Mordor in their quest to destroy the One Ring, while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.
 url: https://www.imdb.com/title/tt0167260/?ref_=chttp_t_6

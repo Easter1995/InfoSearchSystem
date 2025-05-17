@@ -1,7 +1,7 @@
 Batman Begins
 rate: 8.2
-director: Christopher Nolan
-writers: Bob Kane/David S. Goyer/Christopher Nolan
-stars: Christian Bale/Michael Caine/Ken Watanabe
-After witnessing his parents' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends...
+Christopher Nolan
+Bob Kane/David S. Goyer/Christopher Nolan
+Christian Bale/Michael Caine/Ken Watanabe
+When his parents are killed, billionaire playboy Bruce Wayne relocates to Asia, where he is mentored by Henri Ducard and Ra's Al Ghul in how to fight evil. When learning about the plan to wipe out evil in Gotham City by Ducard, Bruce prevents this plan from getting any further and heads back to his home. Back in his original surroundings, Bruce adopts the image of a bat to strike fear into the criminals and the corrupt as the icon known as "Batman". But it doesn't stay quiet for long.
 url: https://www.imdb.com/title/tt0372784/?ref_=chttp_t_132

@@ -1,7 +1,7 @@
 The Godfather Part II
 rate: 9.0
-director: Francis Ford Coppola
-writers: Francis Ford Coppola/Mario Puzo
-stars: Al Pacino/Robert De Niro/Robert Duvall
-The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.
+Francis Ford Coppola
+Francis Ford Coppola/Mario Puzo
+Al Pacino/Robert De Niro/Robert Duvall
+The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba.
 url: https://www.imdb.com/title/tt0071562/?ref_=chttp_t_4

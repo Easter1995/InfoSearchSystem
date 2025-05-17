@@ -1,7 +1,7 @@
-Ainda Estou Aqui
-rate: 8.3
-director: Walter Salles
-writers: Murilo Hauser/Heitor Lorega/Marcelo Rubens Paiva
-stars: Fernanda Torres/Fernanda Montenegro/Selton Mello
-A woman married to a former politician during the military dictatorship in Brazil is forced to reinvent herself and chart a new course for her family after a violent and arbitrary act.
-url: https://www.imdb.com/title/tt14961016/?ref_=chttp_t_218
+The Terminator
+rate: 8.1
+James Cameron
+James Cameron/Gale Anne Hurd/William Wisher
+Arnold Schwarzenegger/Linda Hamilton/Michael Biehn
+Sent back from a dystopian 2029--where the cold machines have conquered the entire world--to 1984 Los Angeles, the indestructible cyborg-assassin known as the "Terminator" commences his deadly mission to kill humankind's most important woman: the unsuspecting Sarah Connor. However, from the same war-torn post-apocalyptic future comes a battle-scarred defender--Kyle Reese, a brave soldier of the human Resistance Army--bent on stopping the cybernetic killer from eliminating the world's last hope. But, the Terminator has no feelings, he doesn't sleep, and above all, he won't stop until he carries out his grim task. Does our future lie in our past?
+url: https://www.imdb.com/title/tt0088247/?ref_=chttp_t_218

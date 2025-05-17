@@ -1,7 +1,7 @@
 Star Wars: Episode V - The Empire Strikes Back
 rate: 8.7
-director: Irvin Kershner
-writers: Leigh Brackett/Lawrence Kasdan/George Lucas
-stars: Mark Hamill/Harrison Ford/Carrie Fisher
-After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy.
+Irvin Kershner
+Leigh Brackett/Lawrence Kasdan/George Lucas
+Mark Hamill/Harrison Ford/Carrie Fisher
+The legendary saga continues as the Rebel Alliance faces increasing challenges from the mighty Galactic Empire. Luke Skywalker, Han Solo, and Princess Leia Organa confront new trials that test their courage, friendships, and beliefs. The Rebel Alliance has established a hidden base on the icy planet of Hoth, where they hope to regroup and plan their next moves against the Empire. Luke Skywalker receives a message from a familiar source, prompting him to seek further guidance in understanding his connection to the Force. Han Solo and Princess Leia's journey takes them on a dangerous path as they navigate a galaxy under Imperial control. Their actions and decisions lead to unforeseen consequences that will impact the fate of the Rebellion. Meanwhile, the dark presence of Darth Vader looms as he relentlessly pursues the Rebels while dealing with inner conflicts of his own.
 url: https://www.imdb.com/title/tt0080684/?ref_=chttp_t_15

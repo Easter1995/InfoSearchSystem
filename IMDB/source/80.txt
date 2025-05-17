@@ -1,7 +1,7 @@
 Catch Me If You Can
 rate: 8.1
-director: Steven Spielberg
-writers: Frank Abagnale Jr./Stan Redding/Jeff Nathanson
-stars: Leonardo DiCaprio/Tom Hanks/Christopher Walken
-Barely 17 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.
+Steven Spielberg
+Frank Abagnale Jr./Stan Redding/Jeff Nathanson
+Leonardo DiCaprio/Tom Hanks/Christopher Walken
+A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit.
 url: https://www.imdb.com/title/tt0264464/?ref_=chttp_t_173

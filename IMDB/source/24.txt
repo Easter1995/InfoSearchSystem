@@ -1,7 +1,7 @@
 The Exorcist
 rate: 8.1
-director: William Friedkin
-writers: William Peter Blatty
-stars: Ellen Burstyn/Max von Sydow/Linda Blair
-When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.
+William Friedkin
+William Peter Blatty
+Ellen Burstyn/Max von Sydow/Linda Blair
+A visiting actress in Washington, D.C., notices dramatic and dangerous changes in the behavior and physical makeup of her 12-year-old daughter. Meanwhile, a young priest at nearby Georgetown University begins to doubt his faith while dealing with his mother's terminal sickness. A frail, elderly priest recognizes the necessity for a show-down with an old demonic enemy.
 url: https://www.imdb.com/title/tt0070047/?ref_=chttp_t_229

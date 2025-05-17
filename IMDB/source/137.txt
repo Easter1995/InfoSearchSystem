@@ -1,7 +1,7 @@
 A Clockwork Orange
 rate: 8.2
-director: Stanley Kubrick
-writers: Stanley Kubrick/Anthony Burgess
-stars: Malcolm McDowell/Patrick Magee/Michael Bates
-Alex DeLarge and his droogs barbarize a decaying near-future.
+Stanley Kubrick
+Stanley Kubrick/Anthony Burgess
+Malcolm McDowell/Patrick Magee/Michael Bates
+Alex DeLarge is an "ultraviolent" youth in futuristic Britain. As with all luck, his eventually runs out and he's arrested and convicted of murder. While in prison, Alex learns of an experimental program in which convicts are programmed to detest violence. If he goes through the program, his sentence will be reduced and he will be back on the streets sooner than expected. But Alex's ordeals are far from over once he hits the streets of Britain.
 url: https://www.imdb.com/title/tt0066921/?ref_=chttp_t_116

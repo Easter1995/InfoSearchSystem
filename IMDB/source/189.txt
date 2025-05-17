@@ -1,7 +1,7 @@
 Witness for the Prosecution
 rate: 8.4
-director: Billy Wilder
-writers: Agatha Christie/Billy Wilder/Harry Kurnitz
-stars: Tyrone Power/Marlene Dietrich/Charles Laughton
-A veteran British barrister must defend his client in a murder trial that has surprise after surprise.
+Billy Wilder
+Agatha Christie/Billy Wilder/Harry Kurnitz
+Tyrone Power/Marlene Dietrich/Charles Laughton
+Ailing barrister Sir Wilfrid Robarts is thrust back into the courtroom in what becomes one of the most unusual and eventful murder cases of the lawyer's career when he finds himself defending Leonard Vole, a man being tried for the murder of a wealthy woman. With Robarts choosing to represent him, the two find themselves up against Leonard's cold-hearted wife, Christine - who, in a surprising turn of events, chooses to appear in court against her husband.
 url: https://www.imdb.com/title/tt0051201/?ref_=chttp_t_64

@@ -1,7 +1,7 @@
 12 Years a Slave
 rate: 8.1
-director: Steve McQueen
-writers: John Ridley/Solomon Northup
-stars: Chiwetel Ejiofor/Michael Kenneth Williams/Michael Fassbender
-In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.
+Steve McQueen
+John Ridley/Solomon Northup
+Chiwetel Ejiofor/Michael Kenneth Williams/Michael Fassbender
+Based on an incredible true story of one man's fight for survival and freedom. In the pre-Civil War United States,
 url: https://www.imdb.com/title/tt2024544/?ref_=chttp_t_188

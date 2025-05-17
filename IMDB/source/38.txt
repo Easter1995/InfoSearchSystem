@@ -1,7 +1,7 @@
 Spotlight
 rate: 8.1
-director: Tom McCarthy
-writers: Josh Singer/Tom McCarthy
-stars: Mark Ruffalo/Michael Keaton/Rachel McAdams
-The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.
+Tom McCarthy
+Josh Singer/Tom McCarthy
+Mark Ruffalo/Michael Keaton/Rachel McAdams
+When the Boston Globe's tenacious "Spotlight" team of reporters delves into allegations of abuse in the Catholic Church, their year-long investigation uncovers a decades-long cover-up at the highest levels of Boston's religious, legal, and government establishment, touching off a wave of revelations around the world.
 url: https://www.imdb.com/title/tt1895587/?ref_=chttp_t_215

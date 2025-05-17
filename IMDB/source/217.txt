@@ -1,7 +1,7 @@
 Psycho
 rate: 8.5
-director: Alfred Hitchcock
-writers: Joseph Stefano/Robert Bloch
-stars: Anthony Perkins/Janet Leigh/Vera Miles
-A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother.
+Alfred Hitchcock
+Joseph Stefano/Robert Bloch
+Anthony Perkins/Janet Leigh/Vera Miles
+Phoenix office worker Marion Crane is fed up with the way life has treated her. She has to meet her lover Sam in lunch breaks, and they cannot get married because Sam has to give most of his money away in alimony. One Friday, Marion is trusted to bank forty thousand dollars by her employer. Seeing the opportunity to take the money and start a new life, Marion leaves town and heads towards Sam's California store. Tired after the long drive and caught in a storm, she gets off the main highway and pulls into the Bates Motel. The motel is managed by a quiet young man called Norman who seems to be dominated by his mother.
 url: https://www.imdb.com/title/tt0054215/?ref_=chttp_t_35

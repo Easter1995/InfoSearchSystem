@@ -1,7 +1,7 @@
 The Grand Budapest Hotel
 rate: 8.1
-director: Wes Anderson
-writers: Stefan Zweig/Wes Anderson/Hugo Guinness
-stars: Ralph Fiennes/F. Murray Abraham/Mathieu Amalric
-A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.
+Wes Anderson
+Stefan Zweig/Wes Anderson/Hugo Guinness
+Ralph Fiennes/F. Murray Abraham/Mathieu Amalric
+This movie recounts the adventures of M. Gustave, a legendary concierge at a famous European hotel between the wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend. The story involves the theft and recovery of a priceless Renaissance painting and the battle for an enormous family fortune - all against the backdrop of a suddenly and dramatically changing continent.
 url: https://www.imdb.com/title/tt2278388/?ref_=chttp_t_190

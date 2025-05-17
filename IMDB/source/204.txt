@@ -1,7 +1,7 @@
-Nuovo Cinema Paradiso
+Alien
 rate: 8.5
-director: Giuseppe Tornatore
-writers: Giuseppe Tornatore/Vanna Paoli
-stars: Philippe Noiret/Enzo Cannavale/Antonella Attili
-Salvatore, a famous film director, returns to his hometown for the funeral of the local theater's film projectionist, Alfredo. He reminisces about his life as a young boy falling in love wit...
-url: https://www.imdb.com/title/tt0095765/?ref_=chttp_t_48
+Ridley Scott
+Dan O'Bannon/Ronald Shusett
+Sigourney Weaver/Tom Skerritt/John Hurt
+In the distant future, the commercial spaceship "Nostromo" crew is on its way home when the crew picks up a distress call from a distant moon. The crew must investigate, and the spaceship descends on the small planetoid afterwards. After a rough landing, three crew members leave the spaceship to explore the area on the planetoid. At the same time, the ship's computer deciphers the message. When the crew realizes it is not alone on the spaceship, they must deal with the consequences.
+url: https://www.imdb.com/title/tt0078748/?ref_=chttp_t_49

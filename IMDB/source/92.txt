@@ -1,7 +1,7 @@
 Dial M for Murder
 rate: 8.2
-director: Alfred Hitchcock
-writers: Frederick Knott
-stars: Ray Milland/Grace Kelly/Robert Cummings
-A London playboy plots the perfect murder of his rich, unfaithful Wife.
+Alfred Hitchcock
+Frederick Knott
+Ray Milland/Grace Kelly/Robert Cummings
+In London, wealthy Margot Mary Wendice had a brief love affair with the American writer Mark Halliday while her husband and professional tennis player Tony Wendice was on a tennis tour. Tony quits playing to dedicate himself to his wife and finds a regular job. She decides to give him a second chance for their marriage. When Mark arrives from America to visit the couple, Margot tells him that she had destroyed all his letters but one that was stolen. Subsequently she was blackmailed, but she had never retrieved the stolen letter. Tony arrives home, claims that he needs to work and asks Margot to go with Mark to the theater. Meanwhile Tony calls Captain Lesgate (aka Charles Alexander Swann who studied with him at college) and blackmails him to murder his wife, so that he can inherit her fortune. But there is no perfect crime, and things do not work as planned.
 url: https://www.imdb.com/title/tt0046912/?ref_=chttp_t_161

@@ -1,7 +1,7 @@
 Pulp Fiction
 rate: 8.9
-director: Quentin Tarantino
-writers: Quentin Tarantino/Roger Avary
-stars: John Travolta/Uma Thurman/Samuel L. Jackson
-The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.
+Quentin Tarantino
+Quentin Tarantino/Roger Avary
+John Travolta/Uma Thurman/Samuel L. Jackson
+Jules Winnfield (
 url: https://www.imdb.com/title/tt0110912/?ref_=chttp_t_8

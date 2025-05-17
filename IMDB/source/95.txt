@@ -1,7 +1,7 @@
 The Great Escape
 rate: 8.2
-director: John Sturges
-writers: Paul Brickhill/James Clavell/W.R. Burnett
-stars: Steve McQueen/James Garner/Richard Attenborough
-Allied officers in a German prisoner of war camp during World War II making a daring plan for a mass escape by hundreds of their men, hoping to draw German personnel and resources away from ...
+John Sturges
+Paul Brickhill/James Clavell/W.R. Burnett
+Steve McQueen/James Garner/Richard Attenborough
+Based on a true story, a group of allied escape artist-type prisoners-of-war are all put in an "escape proof" camp. Their leader decides to try to take out several hundred all at once. The first half of the movie is played for comedy, as the prisoners mostly outwit their jailers to dig the escape tunnel. The second half is high adventure as they use planes, trains, and boats to get out of occupied Europe.
 url: https://www.imdb.com/title/tt0057115/?ref_=chttp_t_158

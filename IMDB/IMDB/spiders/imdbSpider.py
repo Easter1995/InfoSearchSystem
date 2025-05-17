@@ -1,6 +1,8 @@
 import scrapy
 from IMDB.items import ImdbItem
 from scrapy_selenium import SeleniumRequest
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 class ImdbspiderSpider(scrapy.Spider):
     name = "imdbSpider"
@@ -28,12 +30,42 @@ class ImdbspiderSpider(scrapy.Spider):
         for item in li_list:
             page_url = item.xpath('./div/div/div/div/div[2]/div[1]/a/@href').get()
             detail_url = response.urljoin(page_url)
-            yield SeleniumRequest(url=detail_url, callback=self.parse_movie, cookies=self.cookies, meta={'url': detail_url})
+            yield SeleniumRequest(
+                url=detail_url, 
+                callback=self.parse_movie,
+                wait_time=3,
+                wait_until=EC.presence_of_element_located((
+                    By.CSS_SELECTOR,
+                    'div[data-testid="storyline-header"]'
+                )),
+                cookies=self.cookies,
+                meta={'url': detail_url},
+                script="""
+                    // 先滚到 Storyline 标题
+                    document.querySelector('div[data-testid="storyline-header"]')
+                            .scrollIntoView({behavior:'instant',block:'center'});
+                    // 再等待剧情摘要出现在 DOM
+                    return new Promise(resolve => {
+                    const check = () => {
+                        if (document.querySelector('div[data-testid="storyline-plot-summary"]')) {
+                            resolve();
+                        } else {
+                            setTimeout(check, 100);
+                        }
+                    };
+                        check();
+                    });
+                """
+            )
 
     def parse_movie(self, response):
         title = response.xpath('//*[@id="__next"]/main/div/section[1]/section/div[3]/section/section/div[2]/div[1]/h1/span/text()').get()
         rate = response.xpath('//*[@id="__next"]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[2]/div[1]/div/div[1]/a/span/div/div[2]/div[1]/span[1]/text()').get()
-        summary = response.xpath('//*[@id="__next"]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/section/p/span[1]/text()').get()
+        raw = response.xpath(
+            "//div[@data-testid='storyline-plot-summary']"
+            "//div[contains(@class,'ipc-html-content-inner-div')]/text()"
+        ).get()
+        summary = raw.strip() if raw else ""
         director = response.xpath('//*[@id="__next"]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[2]/div[2]/ul/li[1]/div/ul/li/a/text()').get()
         writers_list = response.xpath('//*[@id="__next"]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[2]/div[2]/ul/li[2]/div/ul/li')
         writers_arr = []

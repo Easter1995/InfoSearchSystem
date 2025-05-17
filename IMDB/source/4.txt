@@ -1,7 +1,7 @@
-Rebecca
-rate: 8.1
-director: Alfred Hitchcock
-writers: Daphne Du Maurier/Robert E. Sherwood/Joan Harrison
-stars: Laurence Olivier/Joan Fontaine/George Sanders
-A self-conscious woman juggles adjusting to her new role as an aristocrat's wife and avoiding being intimidated by his first wife's spectral presence.
-url: https://www.imdb.com/title/tt0032976/?ref_=chttp_t_249
+Gangs of Wasseypur
+rate: 8.2
+Anurag Kashyap
+Akhilesh Jaiswal/Anurag Kashyap/Sachin K. Ladia
+Manoj Bajpayee/Nawazuddin Siddiqui/Tigmanshu Dhulia
+Shahid Khan is exiled after impersonating the legendary Sultana Daku in order to rob British trains. Now outcast, Shahid becomes a worker at Ramadhir Singh's colliery, only to spur a revenge battle that passes on to generations. At the turn of the decade, Shahid's son, the philandering Sardar Khan vows to get his father's honor back, becoming the most feared man of Wasseypur.
+url: https://www.imdb.com/title/tt1954470/?ref_=chttp_t_249

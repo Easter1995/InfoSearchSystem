@@ -1,7 +1,7 @@
 Up
 rate: 8.3
-director: Pete Docter
-writers: Pete Docter/Bob Peterson/Tom McCarthy
-stars: Edward Asner/Jordan Nagai/John Ratzenberger
-78-year-old Carl Fredricksen travels to South America in his house equipped with balloons, inadvertently taking a young stowaway.
+Pete Docter
+Pete Docter/Bob Peterson/Tom McCarthy
+Edward Asner/Jordan Nagai/John Ratzenberger
+As a boy, Carl Fredricksen wanted to explore South America and find the forbidden Paradise Falls. About 64 years later he gets to begin his journey along with Boy Scout Russell by lifting his house with thousands of balloons. On their journey, they make many new friends including a talking dog, and figure out that someone has evil plans. Carl soon realizes that this evildoer is his childhood idol.
 url: https://www.imdb.com/title/tt1049413/?ref_=chttp_t_107

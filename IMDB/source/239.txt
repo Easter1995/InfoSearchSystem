@@ -1,7 +1,7 @@
 Fight Club
 rate: 8.8
-director: David Fincher
-writers: Chuck Palahniuk/Jim Uhls
-stars: Brad Pitt/Edward Norton/Meat Loaf
-An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.
+David Fincher
+Chuck Palahniuk/Jim Uhls
+Brad Pitt/Edward Norton/Meat Loaf
+A nameless first-person narrator attends support groups in an attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla, another fake attendee of support groups, his life seems to become a little more bearable. However, when he associates himself with Tyler he is dragged into an underground fight club and soap-making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power.
 url: https://www.imdb.com/title/tt0137523/?ref_=chttp_t_13

@@ -1,7 +1,7 @@
 The Wild Robot
 rate: 8.2
-director: Chris Sanders
-writers: Chris Sanders/Peter Brown
-stars: Lupita Nyong'o/Pedro Pascal/Kit Connor
-After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby ...
+Chris Sanders
+Chris Sanders/Peter Brown
+Lupita Nyong'o/Pedro Pascal/Kit Connor
+From DreamWorks Animation comes a new adaptation of a literary sensation, Peter Brown's beloved, award-winning, #1 New York Times bestseller, The Wild Robot. The epic adventure follows the journey of a robot--ROZZUM unit 7134, "Roz" for short--that is shipwrecked on an uninhabited island and must learn to adapt to the harsh surroundings, gradually building relationships with the animals on the island and becoming the adoptive parent of an orphaned gosling.
 url: https://www.imdb.com/title/tt29623480/?ref_=chttp_t_175

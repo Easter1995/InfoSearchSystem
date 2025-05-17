@@ -1,7 +1,7 @@
 Gladiator
 rate: 8.5
-director: Ridley Scott
-writers: David Franzoni/John Logan/William Nicholson
-stars: Russell Crowe/Joaquin Phoenix/Connie Nielsen
-A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.
+Ridley Scott
+David Franzoni/John Logan/William Nicholson
+Russell Crowe/Joaquin Phoenix/Connie Nielsen
+Maximus is a powerful Roman general, loved by the people and the aging Emperor, Marcus Aurelius. Before his death, the Emperor chooses Maximus to be his heir over his own son, Commodus, and a power struggle leaves Maximus and his family condemned to death. The powerful general is captured and put into the Gladiator games until he dies. The only desire that fuels him now is the chance to rise to the top so that he will be able to look into the eyes of the man who will feel his revenge.
 url: https://www.imdb.com/title/tt0172495/?ref_=chttp_t_33

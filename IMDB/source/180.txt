@@ -1,7 +1,7 @@
 Amadeus
 rate: 8.4
-director: Milos Forman
-writers: Peter Shaffer/Zdenek Mahler
-stars: F. Murray Abraham/Tom Hulce/Elizabeth Berridge
-The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart's talent and claimed to have murdered him...
+Milos Forman
+Peter Shaffer/Zdenek Mahler
+F. Murray Abraham/Tom Hulce/Elizabeth Berridge
+believes that
 url: https://www.imdb.com/title/tt0086879/?ref_=chttp_t_73

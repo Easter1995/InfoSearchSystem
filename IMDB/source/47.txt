@@ -1,7 +1,7 @@
 The General
 rate: 8.1
-director: Clyde Bruckman
-writers: Buster Keaton/Clyde Bruckman/Al Boasberg
-stars: Buster Keaton/Marion Mack/Glen Cavender
-After being rejected by the Confederate military, not realizing it was due to his crucial civilian role, an engineer must single-handedly recapture his beloved locomotive after it is seized ...
+Clyde Bruckman
+Buster Keaton/Clyde Bruckman/Al Boasberg
+Buster Keaton/Marion Mack/Glen Cavender
+Johnnie loves his train ("The General") and Annabelle Lee. When the Civil War begins he is turned down for service because he's more valuable as an engineer. Annabelle thinks it's because he's a coward. Union spies capture The General with Annabelle on board. Johnnie must rescue both his loves.
 url: https://www.imdb.com/title/tt0017925/?ref_=chttp_t_206

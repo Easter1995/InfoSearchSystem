@@ -1,7 +1,7 @@
 Unforgiven
 rate: 8.2
-director: Clint Eastwood
-writers: David Webb Peoples
-stars: Clint Eastwood/Gene Hackman/Morgan Freeman
-Retired Old West gunslinger Will Munny reluctantly takes on one last job to avenge an injustice with the help of his old partner and a newer outlaw known simply as The Schofield Kid.
+Clint Eastwood
+David Webb Peoples
+Clint Eastwood/Gene Hackman/Morgan Freeman
+After escaping death by the skin of her teeth, the horribly disfigured prostitute, Delilah Fitzgerald, and her appalled and equally furious co-workers summon up the courage to seek retribution in 1880s Wyoming's dangerous town of Big Whiskey. With a hefty bounty on the perpetrators' heads, triggered by the tough Sheriff "Little Bill" Daggett's insufficient sense of justice, the infamous former outlaw and now destitute Kansas hog farmer, William Munny, embarks on a murderous last mission to find the men behind the hideous crime. Along with his old partner-in-crime, Ned Logan, and the brash but inexperienced young gunman, the "Schofield Kid", Munny enters a perilous world he has renounced many years ago, knowing that he walks right into a deadly trap; however, he still needs to find a way to raise his motherless children. Now, blood demands blood. Who is the hero, and who is the villain?
 url: https://www.imdb.com/title/tt0105695/?ref_=chttp_t_150

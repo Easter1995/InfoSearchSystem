@@ -1,7 +1,7 @@
 12 Angry Men
 rate: 9.0
-director: Sidney Lumet
-writers: Reginald Rose
-stars: Henry Fonda/Lee J. Cobb/Martin Balsam
-The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.
+Sidney Lumet
+Reginald Rose
+Henry Fonda/Lee J. Cobb/Martin Balsam
+The defense and the prosecution have rested, and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, AND each other. Based on the play, all of the action takes place on the stage of the jury room.
 url: https://www.imdb.com/title/tt0050083/?ref_=chttp_t_5

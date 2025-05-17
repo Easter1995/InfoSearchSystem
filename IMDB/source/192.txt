@@ -1,7 +1,7 @@
 Avengers: Infinity War
 rate: 8.4
-director: Anthony Russo
-writers: Christopher Markus/Stephen McFeely/Stan Lee
-stars: Robert Downey Jr./Chris Hemsworth/Mark Ruffalo
-The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+Anthony Russo
+Christopher Markus/Stephen McFeely/Stan Lee
+Robert Downey Jr./Chris Hemsworth/Mark Ruffalo
+As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment, the fate of Earth and existence has never been more uncertain.
 url: https://www.imdb.com/title/tt4154756/?ref_=chttp_t_61

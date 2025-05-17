@@ -1,7 +1,7 @@
 The Deer Hunter
 rate: 8.1
-director: Michael Cimino
-writers: Michael Cimino/Deric Washburn/Louis Garfinkle
-stars: Robert De Niro/Christopher Walken/John Cazale
-An in-depth examination of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania.
+Michael Cimino
+Michael Cimino/Deric Washburn/Louis Garfinkle
+Robert De Niro/Christopher Walken/John Cazale
+Michael, Steven and Nicky are 3 best friends who enjoy going deer hunting quite often. These men get enlisted to head to Vietnam to fight for their country and celebrate with a farewell party, as well as Steven marrying a pregnant woman named "Angela." After the horrors during the war and edge-grabbing games of Russian Roulette that these men are forced to play, Michael returns home and realizes that his deer hunting outings aren't the same as they used to be, because of the war and he eventually finds out that Steven is handicapped and Nicky hasn't returned from Vietnam, and in response, he heads back to Vietnam to rescue him.
 url: https://www.imdb.com/title/tt0077416/?ref_=chttp_t_204

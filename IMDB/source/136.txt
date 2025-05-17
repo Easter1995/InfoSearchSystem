@@ -1,7 +1,7 @@
 Die Hard
 rate: 8.2
-director: John McTiernan
-writers: Roderick Thorp/Jeb Stuart/Steven E. de Souza
-stars: Bruce Willis/Alan Rickman/Bonnie Bedelia
-A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.
+John McTiernan
+Roderick Thorp/Jeb Stuart/Steven E. de Souza
+Bruce Willis/Alan Rickman/Bonnie Bedelia
+NYPD cop John McClane goes on a Christmas vacation to visit his wife Holly in Los Angeles where she works for the Nakatomi Corporation. While they are at the Nakatomi headquarters for a Christmas party, a group of robbers led by Hans Gruber take control of the building and hold everyone hostage, with the exception of John, while they plan to perform a lucrative heist. Unable to escape and with no immediate police response, John is forced to take matters into his own hands.
 url: https://www.imdb.com/title/tt0095016/?ref_=chttp_t_117

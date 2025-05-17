@@ -1,7 +1,7 @@
 Salinui chueok
 rate: 8.1
-director: Bong Joon Ho
-writers: Bong Joon Ho/Kwang-rim Kim/Sung-bo Shim
-stars: Song Kang-ho/Kim Sang-kyung/Kim Roe-ha
-In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.
+Bong Joon Ho
+Bong Joon Ho/Kwang-rim Kim/Sung-bo Shim
+Song Kang-ho/Kim Sang-kyung/Kim Roe-ha
+1986. In a rural district of South Korea, two women have been recently raped and murdered. Working on the case are detectives Park Doo-man and Cho Yong-koo. Their efforts are impeded by some sloppy crime scene procedure by the police. Their methods of solving cases are also quite basic, essentially amounting to beating confessions out of suspects. All this leads to nothing and the police chief brings in a more sophisticated and intelligent detective from Seoul, Seo Tae-yoon. With his arrival the methods improve but they still don't have the killer. Then another woman is found murdered and a pattern emerges.
 url: https://www.imdb.com/title/tt0353969/?ref_=chttp_t_194

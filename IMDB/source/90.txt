@@ -1,7 +1,7 @@
 Gone with the Wind
 rate: 8.2
-director: Victor Fleming
-writers: Margaret Mitchell/Sidney Howard/Oliver H.P. Garrett
-stars: Clark Gable/Vivien Leigh/Thomas Mitchell
-A sheltered and manipulative Southern belle and a roguish profiteer face off in a turbulent romance as the society around them crumbles with the end of slavery and is rebuilt during the Civi...
+Victor Fleming
+Margaret Mitchell/Sidney Howard/Oliver H.P. Garrett
+Clark Gable/Vivien Leigh/Thomas Mitchell
+Scarlett is a woman who can deal with a nation at war, Atlanta burning, the Union Army carrying off everything from her beloved Tara, the carpetbaggers who arrive after the war. Scarlett is beautiful. She has vitality. But Ashley, the man she has wanted for so long, is going to marry his placid cousin, Melanie. Mammy warns Scarlett to behave herself at the party at Twelve Oaks. There is a new man there that day, the day the Civil War begins. Rhett Butler. Scarlett does not know he is in the room when she pleads with Ashley to choose her instead of Melanie.
 url: https://www.imdb.com/title/tt0031381/?ref_=chttp_t_163

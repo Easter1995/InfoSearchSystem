@@ -1,7 +1,7 @@
 The Lord of the Rings: The Fellowship of the Ring
 rate: 8.9
-director: Peter Jackson
-writers: J.R.R. Tolkien/Fran Walsh/Philippa Boyens
-stars: Elijah Wood/Ian McKellen/Orlando Bloom
-A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
+Peter Jackson
+J.R.R. Tolkien/Fran Walsh/Philippa Boyens
+Elijah Wood/Ian McKellen/Orlando Bloom
+An ancient Ring thought lost for centuries has been found, and through a strange twist of fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to Mount Doom in order to destroy it. However, he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir, and his three Hobbit friends Merry, Pippin, and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign.
 url: https://www.imdb.com/title/tt0120737/?ref_=chttp_t_9

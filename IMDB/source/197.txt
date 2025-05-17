@@ -1,7 +1,7 @@
 Dune: Part Two
 rate: 8.5
-director: Denis Villeneuve
-writers: Denis Villeneuve/Jon Spaihts/Frank Herbert
-stars: Timothée Chalamet/Zendaya/Rebecca Ferguson
-Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the univers...
+Denis Villeneuve
+Denis Villeneuve/Jon Spaihts/Frank Herbert
+Timothée Chalamet/Zendaya/Rebecca Ferguson
+Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he endeavors to prevent a terrible future only he can foresee.
 url: https://www.imdb.com/title/tt15239678/?ref_=chttp_t_56

@@ -1,7 +1,7 @@
 Singin' in the Rain
 rate: 8.3
-director: Stanley Donen
-writers: Betty Comden/Adolph Green
-stars: Gene Kelly/Donald O'Connor/Debbie Reynolds
-A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood.
+Stanley Donen
+Betty Comden/Adolph Green
+Gene Kelly/Donald O'Connor/Debbie Reynolds
+1927 Hollywood. Monumental Pictures' biggest stars, glamorous on-screen couple Lina Lamont and Don Lockwood, are also an off-screen couple if the trade papers and gossip columns are to be believed. Both perpetuate the public perception if only to please their adoring fans and bring people into the movie theaters. In reality, Don barely tolerates her, while Lina, despite thinking Don beneath her, simplemindedly believes what she sees on screen in order to bolster her own stardom and sense of self-importance. R.F. Simpson, Monumental's head, dismisses what he thinks is a flash in the pan: talking pictures. It isn't until
 url: https://www.imdb.com/title/tt0045152/?ref_=chttp_t_89

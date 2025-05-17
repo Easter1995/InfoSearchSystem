@@ -1,7 +1,7 @@
 La battaglia di Algeri
 rate: 8.1
-director: Gillo Pontecorvo
-writers: Franco Solinas/Gillo Pontecorvo
-stars: Brahim Hadjadj/Jean Martin/Yacef Saadi
-In the 1950s, fear and violence escalate as the people of Algiers fight for independence from the French government.
+Gillo Pontecorvo
+Franco Solinas/Gillo Pontecorvo
+Brahim Hadjadj/Jean Martin/Yacef Saadi
+A film commissioned by the Algerian government that shows the Algerian revolution from both sides. The French foreign legion has left Vietnam in defeat and has something to prove. The Algerians are seeking independence. The two clash. The torture used by the French is contrasted with the Algerian's use of bombs in soda shops. A look at war as a nasty thing that harms and sullies everyone who participates in it.
 url: https://www.imdb.com/title/tt0058946/?ref_=chttp_t_243

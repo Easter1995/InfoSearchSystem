@@ -1,7 +1,7 @@
 1917
 rate: 8.2
-director: Sam Mendes
-writers: Sam Mendes/Krysty Wilson-Cairns
-stars: Dean-Charles Chapman/George MacKay/Daniel Mays
-April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from wa...
+Sam Mendes
+Sam Mendes/Krysty Wilson-Cairns
+Dean-Charles Chapman/George MacKay/Daniel Mays
+April 1917, the Western Front. Two British soldiers are sent to deliver an urgent message to an isolated regiment. If the message is not received in time the regiment will walk into a trap and be massacred. To get to the regiment they will need to cross through enemy territory. Time is of the essence and the journey will be fraught with danger.
 url: https://www.imdb.com/title/tt8579674/?ref_=chttp_t_123

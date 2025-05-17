@@ -1,7 +1,7 @@
 Casino
 rate: 8.2
-director: Martin Scorsese
-writers: Nicholas Pileggi/Martin Scorsese
-stars: Robert De Niro/Sharon Stone/Joe Pesci
-In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.
+Martin Scorsese
+Nicholas Pileggi/Martin Scorsese
+Robert De Niro/Sharon Stone/Joe Pesci
+This Martin Scorsese film depicts the Janus-like quality of Las Vegas: it has a glittering, glamorous face, as well as a brutal, cruel one. Ace Rothstein and Nicky Santoro, mobsters who move to Las Vegas to make their mark, live and work in this paradoxical world. Seen through their eyes, each as a foil to the other, the details of mob involvement in the casinos of the 1970s and '80s are revealed. Ace is the smooth operator of the Tangiers casino, while Nicky is his boyhood friend and tough strongman, robbing and shaking down the locals. However, they each have a tragic flaw: Ace falls in love with hustler Ginger, and Nicky falls into an ever-deepening spiral of drugs and violence.
 url: https://www.imdb.com/title/tt0112641/?ref_=chttp_t_144

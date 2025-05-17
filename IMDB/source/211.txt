@@ -1,7 +1,7 @@
 The Prestige
 rate: 8.5
-director: Christopher Nolan
-writers: Jonathan Nolan/Christopher Nolan/Christopher Priest
-stars: Christian Bale/Hugh Jackman/Scarlett Johansson
-Rival 19th-century magicians engage in a bitter battle for trade secrets.
+Christopher Nolan
+Jonathan Nolan/Christopher Nolan/Christopher Priest
+Christian Bale/Hugh Jackman/Scarlett Johansson
+Set in London in the 1800s, two rival magicians read each others diary containing the secrets of their magic tricks and personal life. As we go back in time when the diaries were written, both magicians become obsessed with their rival's best trick. The tricks, as shown to the audience, look the same, but neither magician can figure out how his opponent does it.
 url: https://www.imdb.com/title/tt0482571/?ref_=chttp_t_41

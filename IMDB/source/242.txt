@@ -1,7 +1,7 @@
 Il buono, il brutto, il cattivo
 rate: 8.8
-director: Sergio Leone
-writers: Luciano Vincenzoni/Sergio Leone/Agenore Incrocci
-stars: Clint Eastwood/Eli Wallach/Lee Van Cleef
-A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.
+Sergio Leone
+Luciano Vincenzoni/Sergio Leone/Agenore Incrocci
+Clint Eastwood/Eli Wallach/Lee Van Cleef
+During the American Civil War, three men set off to find $200,000.00 in buried gold coins. Tuco and Blondie have known each other for some time, having used the reward on Tuco's head as a way of earning money. They come across a dying man, Bill Carson, who tells them of a treasure in gold coins. By chance, he reveals the name of the cemetery and the name of the grave where the gold is buried. Now rivals, the two men have good reason to keep each other alive. The third man, Angel Eyes, hears of the gold stash from someone he's been hired to kill. All he knows is to look for someone named Bill Carson. The three ultimately meet in a showdown that takes place amid a major battle between Confederate and Union forces.
 url: https://www.imdb.com/title/tt0060196/?ref_=chttp_t_10

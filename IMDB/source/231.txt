@@ -1,7 +1,7 @@
 It's a Wonderful Life
 rate: 8.6
-director: Frank Capra
-writers: Frances Goodrich/Albert Hackett/Frank Capra
-stars: James Stewart/Donna Reed/Lionel Barrymore
-An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.
+Frank Capra
+Frances Goodrich/Albert Hackett/Frank Capra
+James Stewart/Donna Reed/Lionel Barrymore
+George Bailey has spent his entire life giving of himself to the people of Bedford Falls. He has always longed to travel but never had the opportunity in order to prevent rich skinflint Mr. Potter from taking over the entire town. All that prevents him from doing so is George's modest building and loan company, which was founded by his generous father. But on Christmas Eve, George's Uncle Billy loses the business's $8,000 while intending to deposit it in the bank. Mr. Potter finds the misplaced money and hides it from Uncle Billy. When the bank examiner discovers the shortage later that night, George realizes that he will be held responsible and sent to jail and the company will collapse, finally allowing Mr. Potter to take over the town. Thinking of his wife, Mary, their four children, and others he loves will be better off with him dead, he contemplates suicide. But the prayers of his loved ones result in his guardian angel named Clarence Odbody coming to Earth to help him, with the promise of earning his wings. He shows him what things would have been like if he had never been born.
 url: https://www.imdb.com/title/tt0038650/?ref_=chttp_t_21

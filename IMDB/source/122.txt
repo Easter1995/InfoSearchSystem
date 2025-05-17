@@ -1,7 +1,7 @@
 Green Book
 rate: 8.2
-director: Peter Farrelly
-writers: Nick Vallelonga/Brian Hayes Currie/Peter Farrelly
-stars: Viggo Mortensen/Mahershala Ali/Linda Cardellini
-A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South.
+Peter Farrelly
+Nick Vallelonga/Brian Hayes Currie/Peter Farrelly
+Viggo Mortensen/Mahershala Ali/Linda Cardellini
+In 1962, tough bouncer Frank "Tony Lip" Vallelonga searches for work while his nightclub is closed for renovations. The most promising offer turns out to be the driver for African-American classical pianist Don Shirley for a concert tour into the Deep South states. Although hardly enthused at working for a Black man, Tony accepts the job and they begin their trek armed with "The Negro Motorist Green Book," a guide for safe travel through America's racial segregation. The snobbishly erudite pianist and the crudely practical bouncer can barely get along with their clashing attitudes to life and ideals. However, as the disparate pair witness and endure America's appalling injustices on the road, they find a newfound respect for each other's talents and start to face them together. In doing so, they nurture an understanding and a friendship that would change both their lives.
 url: https://www.imdb.com/title/tt6966692/?ref_=chttp_t_131

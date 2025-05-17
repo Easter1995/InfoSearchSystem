@@ -1,7 +1,7 @@
 To Kill a Mockingbird
 rate: 8.3
-director: Robert Mulligan
-writers: Harper Lee/Horton Foote
-stars: Gregory Peck/John Megna/Frank Overton
-A widowed lawyer in Depression-era Alabama defends a black man against a false rape charge while teaching his young children about the sad reality of prejudice.
+Robert Mulligan
+Harper Lee/Horton Foote
+Gregory Peck/John Megna/Frank Overton
+In small-town Alabama in 1932, Atticus Finch (Gregory Peck) is a lawyer and a widower. He has two young children, Jem and Scout. Atticus Finch is currently defending Tom Robinson, a Black man accused of raping a white woman. Meanwhile, Jem and Scout are intrigued by their neighbors, the Radleys, in particular the mysterious, seldom-seen Boo Radley.
 url: https://www.imdb.com/title/tt0056592/?ref_=chttp_t_114

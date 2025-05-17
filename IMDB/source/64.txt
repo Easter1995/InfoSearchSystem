@@ -1,7 +1,7 @@
 Before Sunrise
 rate: 8.1
-director: Richard Linklater
-writers: Richard Linklater/Kim Krizan
-stars: Ethan Hawke/Julie Delpy/Andrea Eckert
-A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.
+Richard Linklater
+Richard Linklater/Kim Krizan
+Ethan Hawke/Julie Delpy/Andrea Eckert
+American tourist Jesse and French student Celine meet by chance on the train from Budapest to Vienna. Sensing that they are developing a connection, Jesse asks Celine to spend the day with him in Vienna, and she agrees. So they pass the time before his scheduled flight the next morning together. How do two perfect strangers connect so intimately over the course of a single day? What is that special thing that bonds two people so strongly? As their bond turns to love, what will happen to them the next morning when Jesse flies away?
 url: https://www.imdb.com/title/tt0112471/?ref_=chttp_t_189

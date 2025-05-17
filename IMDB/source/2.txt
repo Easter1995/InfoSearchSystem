@@ -1,7 +1,7 @@
-C'era una volta il West
+Spider-Man: Across the Spider-Verse
 rate: 8.5
-director: Sergio Leone
-writers: Sergio Donati/Sergio Leone/Dario Argento
-stars: Henry Fonda/Charles Bronson/Claudia Cardinale
-A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.
-url: https://www.imdb.com/title/tt0064116/?ref_=chttp_t_52
+Joaquim Dos Santos
+Phil Lord/Christopher Miller/Dave Callaham
+Shameik Moore/Hailee Steinfeld/Brian Tyree Henry
+Miles Morales returns for the next chapter of the Oscar®-winning Spider-Verse saga, an epic adventure that will transport Brooklyn's full-time, friendly neighborhood Spider-Man across the Multiverse to join forces with Gwen Stacy and a new team of Spider-People to face off with a villain more powerful than anything they have ever encountered.
+url: https://www.imdb.com/title/tt9362722/?ref_=chttp_t_44

@@ -1,7 +1,7 @@
 Coco
 rate: 8.4
-director: Lee Unkrich
-writers: Lee Unkrich/Jason Katz/Matthew Aldrich
-stars: Anthony Gonzalez/Gael García Bernal/Benjamin Bratt
-Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.
+Lee Unkrich
+Lee Unkrich/Jason Katz/Matthew Aldrich
+Anthony Gonzalez/Gael García Bernal/Benjamin Bratt
+Despite his family's baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.
 url: https://www.imdb.com/title/tt2380307/?ref_=chttp_t_72

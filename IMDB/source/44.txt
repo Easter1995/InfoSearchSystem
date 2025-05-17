@@ -1,7 +1,7 @@
 On the Waterfront
 rate: 8.1
-director: Elia Kazan
-writers: Budd Schulberg/Malcolm Johnson/Robert Siodmak
-stars: Marlon Brando/Karl Malden/Lee J. Cobb
-An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of ...
+Elia Kazan
+Budd Schulberg/Malcolm Johnson/Robert Siodmak
+Marlon Brando/Karl Malden/Lee J. Cobb
+A longshoreman and ex boxer named Terry Malloy witnesses a murder perpetrated by his corrupt union. When a beautiful young woman comes into the picture that just so happens to be the murdered man's sister, Terry feels obligated to stand up to his bosses as a result of his recent relations with her.
 url: https://www.imdb.com/title/tt0047296/?ref_=chttp_t_209

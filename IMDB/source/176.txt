@@ -1,7 +1,7 @@
 Oldeuboi
 rate: 8.3
-director: Park Chan-wook
-writers: Garon Tsuchiya/Nobuaki Minegishi/Park Chan-wook
-stars: Choi Min-sik/Yoo Ji-tae/Kang Hye-jeong
-After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must track down his captor in five days.
+Park Chan-wook
+Garon Tsuchiya/Nobuaki Minegishi/Park Chan-wook
+Choi Min-sik/Yoo Ji-tae/Kang Hye-jeong
+Oh Dae-Su, an obnoxious drunk abducted on a rainy night in 1988, wakes up in a strange, windowless hotel room. Kept under lock and key for an unknown reason, Oh Dae-Su's invisible captors keep him fed and systematically sedated to avert suicide, providing only a colour television to keep him company. And after fifteen long years in captivity, perplexed Oh Dae-Su finds himself released. Now, his pitiless abductors encourage Oh Dae-Su to track down the ones behind the mysterious kidnapping and finally get his brutal, longed-for revenge on the unknown tormentor. However, who would hate Oh Dae-Su so much that he would deny him a quick and clean death?
 url: https://www.imdb.com/title/tt0364569/?ref_=chttp_t_77

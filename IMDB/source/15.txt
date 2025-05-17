@@ -1,7 +1,7 @@
-Network
-rate: 8.1
-director: Sidney Lumet
-writers: Paddy Chayefsky
-stars: Faye Dunaway/William Holden/Peter Finch
-A television network cynically exploits a deranged former anchor's ravings and revelations about mass media for its own profit, but finds that his message may be difficult to control.
-url: https://www.imdb.com/title/tt0074958/?ref_=chttp_t_238
+Babam ve Oglum
+rate: 8.2
+Çagan Irmak
+Çagan Irmak
+Çetin Tekindor/Fikret Kuskan/Hümeyra
+Sadik is one of the rebellious youth who has been politically active as a university student and became a left-wing journalist in the 70's, despite his father's expectations of him becoming an agricultural engineer and taking control of their family farm in an Aegean village. On the dawn of September 12, 1980, when a merciless military coup hits the country, they cannot find access to any hospital or a doctor and his wife dies while giving birth to their only child, Deniz. After a long-lasting period of torture, trials, and jail time, Sadik returns to his village with 7-8 years old Deniz, knowing that it will be hard to correct things with his father, Huseyin.
+url: https://www.imdb.com/title/tt0476735/?ref_=chttp_t_238

@@ -1,7 +1,7 @@
 Full Metal Jacket
 rate: 8.2
-director: Stanley Kubrick
-writers: Stanley Kubrick/Michael Herr/Gustav Hasford
-stars: Matthew Modine/R. Lee Ermey/Vincent D'Onofrio
-A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.
+Stanley Kubrick
+Stanley Kubrick/Michael Herr/Gustav Hasford
+Matthew Modine/R. Lee Ermey/Vincent D'Onofrio
+A two-segment look at the effect of the military mindset and war itself on Vietnam era Marines. The first half follows a group of recruits in boot camp under the command of the punishing Gunnery Sergeant Hartman. The second half shows one of those recruits, Joker, covering the war as a correspondent for Stars and Stripes, focusing on the Tet offensive.
 url: https://www.imdb.com/title/tt0093058/?ref_=chttp_t_110

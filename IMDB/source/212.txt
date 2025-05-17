@@ -1,7 +1,7 @@
 Seppuku
 rate: 8.6
-director: Masaki Kobayashi
-writers: Yasuhiko Takiguchi/Shinobu Hashimoto
-stars: Tatsuya Nakadai/Akira Ishihama/Shima Iwashita
-When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so ...
+Masaki Kobayashi
+Yasuhiko Takiguchi/Shinobu Hashimoto
+Tatsuya Nakadai/Akira Ishihama/Shima Iwashita
+A samurai, Hanshiro Tsugumo, arrives at the house of the Iyi Clan with an unusual request. Due to his circumstances, he wishes to commit harakiri, ritual suicide, in the courtyard of the house. Turns out this is not such an unusual request: the clan has had such requests before, though the requestor's intentions weren't always honourable. The Clan elder tells Tsugumo the story of the last samurai who made the request and how that ended. Will he still go through with it?
 url: https://www.imdb.com/title/tt0056058/?ref_=chttp_t_40

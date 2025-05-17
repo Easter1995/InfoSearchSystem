@@ -1,7 +1,7 @@
 The Apartment
 rate: 8.3
-director: Billy Wilder
-writers: Billy Wilder/I.A.L. Diamond
-stars: Jack Lemmon/Shirley MacLaine/Fred MacMurray
-A Manhattan insurance clerk tries to rise in his company by letting its executives use his apartment for trysts, but office politics and his own romantic hopes complicate matters.
+Billy Wilder
+Billy Wilder/I.A.L. Diamond
+Jack Lemmon/Shirley MacLaine/Fred MacMurray
+As of November 1, 1959, mild mannered C.C. Baxter has been working at Consolidated Life, an insurance company, for close to four years, and is one of close to thirty-two thousand employees located in their Manhattan head office. To distinguish himself from all the other lowly cogs in the company in the hopes of moving up the corporate ladder, he often works late, but only because he can't get into his apartment, located off of Central Park West, since he has provided it to a handful of company executives - Mssrs. Dobisch, Kirkeby, Vanderhoff and Eichelberger - on a rotating basis for their extramarital liaisons in return for a good word to the personnel director, Jeff D. Sheldrake. When Baxter is called into Sheldrake's office for the first time, he learns that it isn't just to be promoted as he expects, but also to add married Sheldrake to the list to who he will lend his apartment. Dobisch, Kirkeby, Vanderhoff and Eichelberger are now feeling neglected as Baxter no longer needs their assistance in moving up.
 url: https://www.imdb.com/title/tt0053604/?ref_=chttp_t_100

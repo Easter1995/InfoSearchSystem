@@ -1,7 +1,7 @@
 Inglourious Basterds
 rate: 8.4
-director: Quentin Tarantino
-writers: Quentin Tarantino
-stars: Brad Pitt/Diane Kruger/Eli Roth
-In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.
+Quentin Tarantino
+Quentin Tarantino
+Brad Pitt/Diane Kruger/Eli Roth
+In German-occupied France, young Jewish refugee Shosanna Dreyfus witnesses the slaughter of her family by Colonel Hans Landa. Narrowly escaping with her life, she plots her revenge several years later when German war hero Fredrick Zoller takes a rapid interest in her and arranges an illustrious movie premiere at the theater she now runs. With the promise of every major Nazi officer in attendance, the event catches the attention of the "Basterds", a group of Jewish-American guerrilla soldiers led by the ruthless Lt. Aldo Raine. As the relentless executioners advance and the conspiring young girl's plans are set in motion, their paths will cross for a fateful evening that will shake the very annals of history.
 url: https://www.imdb.com/title/tt0361748/?ref_=chttp_t_69

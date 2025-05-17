@@ -1,7 +1,7 @@
 To Be or Not to Be
 rate: 8.1
-director: Ernst Lubitsch
-writers: Melchior Lengyel/Edwin Justus Mayer/Ernst Lubitsch
-stars: Carole Lombard/Jack Benny/Robert Stack
-During the German occupation of Poland, an acting troupe becomes embroiled in a Polish soldier's efforts to track down a German spy.
+Ernst Lubitsch
+Melchior Lengyel/Edwin Justus Mayer/Ernst Lubitsch
+Carole Lombard/Jack Benny/Robert Stack
+Joseph and Maria Tura operate and star in their own theater company in Warsaw. Maria has many admirers including a young lieutenant in the Polish air force, Stanislav Sobinski. When the Germans invade Poland to start World War II, Sobinski and his colleagues flee to England while the Turas find themselves now having to operate under severe restrictions, including shelving a comical play they had written about Adolf Hitler. In England meanwhile, Sobinski and his friends give Professor Siletski - who is about to return to Poland - the names and addresses of their closest relatives so the professor can carry messages for them. When it's learned that Siletski is really a German spy, Sobinski parachutes into Poland and enlists the aid of the Turas and their fellow actors to get that list back.
 url: https://www.imdb.com/title/tt0035446/?ref_=chttp_t_241

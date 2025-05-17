@@ -1,7 +1,7 @@
 The Sound of Music
 rate: 8.1
-director: Robert Wise
-writers: Georg Hurdalek/Howard Lindsay/Russel Crouse
-stars: Julie Andrews/Christopher Plummer/Eleanor Parker
-A young novice is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.
+Robert Wise
+Georg Hurdalek/Howard Lindsay/Russel Crouse
+Julie Andrews/Christopher Plummer/Eleanor Parker
+In 1930s Austria, a young woman named Maria is failing miserably in her attempts to become a nun. When Navy Captain Georg Von Trapp writes to the abbey asking for a governess that can handle his seven mischievous children, Maria is given the job. His wife is dead, he is often away, and he runs the household as strictly as he does the ships he sails on. The children are unhappy and resentful of the governesses that he keeps hiring and have managed to run each of them off one by one. When Maria arrives, she is initially met with the same hostility, but her kindness, understanding, and sense of fun soon draws the children to her and brings some much-needed joy into all their lives, including the Captain's. Eventually he and Maria find themselves falling in love, even though he is already engaged to a Baroness named Elsa and Maria is still a postulant. The romance makes them both start questioning the decisions they have made. Their personal conflicts soon become overshadowed, however, by world events. Austria is about to come under Germany's control, and the Captain may soon find himself drafted into the German Navy and forced to fight against his own country.
 url: https://www.imdb.com/title/tt0059742/?ref_=chttp_t_230

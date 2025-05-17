@@ -1,7 +1,7 @@
 In the Name of the Father
 rate: 8.1
-director: Jim Sheridan
-writers: Gerry Conlon/Terry George/Jim Sheridan
-stars: Daniel Day-Lewis/Pete Postlethwaite/Alison Crosbie
-An Irish man's coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. Meanwhile, a British lawyer fights to clear their names and free t...
+Jim Sheridan
+Gerry Conlon/Terry George/Jim Sheridan
+Daniel Day-Lewis/Pete Postlethwaite/Alison Crosbie
+Young Belfastian
 url: https://www.imdb.com/title/tt0107207/?ref_=chttp_t_197

@@ -1,7 +1,7 @@
 North by Northwest
 rate: 8.3
-director: Alfred Hitchcock
-writers: Ernest Lehman
-stars: Cary Grant/Eva Marie Saint/James Mason
-A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt.
+Alfred Hitchcock
+Ernest Lehman
+Cary Grant/Eva Marie Saint/James Mason
+Madison Avenue advertising man Roger Thornhill is thrust into the world of spies when he is mistaken for a man named George Kaplan. Foreign spy Philip Vandamm and his henchman Leonard try to eliminate him, but when he tries to make sense of the case, he is framed for murder. Now on the run from the police, he manages to board the 20th Century Limited bound for Chicago where he meets beautiful blonde Eve Kendall, who helps him evade the authorities. His world is turned upside-down yet again when he learns that Eve isn't the innocent bystander he thought she was. Nothing is as it seems, leading to a dramatic rescue and escape at the top of Mt. Rushmore.
 url: https://www.imdb.com/title/tt0053125/?ref_=chttp_t_106

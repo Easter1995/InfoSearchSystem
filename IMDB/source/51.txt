@@ -1,7 +1,7 @@
 Sherlock Jr.
 rate: 8.2
-director: Buster Keaton
-writers: Jean C. Havez/Joseph A. Mitchell/Clyde Bruckman
-stars: Buster Keaton/Kathryn McGuire/Joe Keaton
-A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend's father's pocketwatch.
+Buster Keaton
+Jean C. Havez/Joseph A. Mitchell/Clyde Bruckman
+Buster Keaton/Kathryn McGuire/Joe Keaton
+A meek, mild projectionist who also cleans up after screenings, would like nothing better than to be a private detective. He becomes engaged to a pretty girl but a ladies' man known as the Sheik vies for her affection. He gets rid of the projectionist by stealing a pocket-watch belonging to the girl's father--and pawns it to buy her an expensive box of candy. He then slips the pawn ticket into the projectionist's pocket and subsequently is found by the police. He has little luck, but in his dreams he is the debonair, renowned detective Sherlock Jr., who faces danger and solves the crime. In real life, the girl solves crimes quickly.
 url: https://www.imdb.com/title/tt0015324/?ref_=chttp_t_202

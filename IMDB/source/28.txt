@@ -1,7 +1,7 @@
 Hotel Rwanda
 rate: 8.1
-director: Terry George
-writers: Keir Pearson/Terry George
-stars: Don Cheadle/Sophie Okonedo/Joaquin Phoenix
-Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa.
+Terry George
+Keir Pearson/Terry George
+Don Cheadle/Sophie Okonedo/Joaquin Phoenix
+1994. In Rwanda, the classification of the native population into Hutus and Tutsis, arbitrarily done by the colonial Belgians, is now ingrained within Rwandan mentality despite the Rwandan independence. Despite the Belgians having placed the Tutsis in a higher position during the Belgian rule, they have placed the majority Hutus in power after independence.
 url: https://www.imdb.com/title/tt0395169/?ref_=chttp_t_225

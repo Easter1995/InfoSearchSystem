@@ -1,7 +1,7 @@
 Taxi Driver
 rate: 8.2
-director: Martin Scorsese
-writers: Paul Schrader
-stars: Robert De Niro/Jodie Foster/Cybill Shepherd
-A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.
+Martin Scorsese
+Paul Schrader
+Robert De Niro/Jodie Foster/Cybill Shepherd
+Travis Bickle is an ex-Marine and Vietnam War veteran living in New York City. As he suffers from insomnia, he spends his time working as a taxi driver at night, watching porn movies at seedy cinemas during the day, or thinking about how the world, New York in particular, has deteriorated into a cesspool. He's a loner who has strong opinions about what is right and wrong with mankind. For him, the one bright spot in humanity is Betsy, a worker on the presidential nomination campaign of Senator Charles Palantine. After an incident, he believes he has to do whatever he needs to make the world a better place.
 url: https://www.imdb.com/title/tt0075314/?ref_=chttp_t_130

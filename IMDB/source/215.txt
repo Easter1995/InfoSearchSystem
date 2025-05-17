@@ -1,7 +1,7 @@
 Hotaru no haka
 rate: 8.5
-director: Isao Takahata
-writers: Akiyuki Nosaka/Isao Takahata
-stars: Tsutomu Tatsumi/Ayano Shiraishi/Akemi Yamaguchi
-A young boy and his little sister struggle to survive in Japan during World War II.
+Isao Takahata
+Akiyuki Nosaka/Isao Takahata
+Tsutomu Tatsumi/Ayano Shiraishi/Akemi Yamaguchi
+The story of Seita and Setsuko, two young Japanese siblings, living in the declining days of World War II. When an American firebombing separates the two children from their parents, the two siblings must rely completely on one another while they struggle to fight for their survival.
 url: https://www.imdb.com/title/tt0095327/?ref_=chttp_t_37

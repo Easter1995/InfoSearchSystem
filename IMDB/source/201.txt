@@ -1,7 +1,7 @@
-Rear Window
+C'era una volta il West
 rate: 8.5
-director: Alfred Hitchcock
-writers: John Michael Hayes/Cornell Woolrich
-stars: James Stewart/Grace Kelly/Wendell Corey
-A bored photographer recovering from a broken leg passes the time by watching his neighbors and begins to suspect one of them of murder.
-url: https://www.imdb.com/title/tt0047396/?ref_=chttp_t_51
+Sergio Leone
+Sergio Donati/Sergio Leone/Dario Argento
+Henry Fonda/Charles Bronson/Claudia Cardinale
+Story of a young woman, Mrs. McBain, who moves from New Orleans to frontier Utah, on the very edge of the American West. She arrives to find her new husband and family slaughtered, but by whom? The prime suspect, coffee-lover Cheyenne, befriends her and offers to go after the real killer, assassin gang leader Frank, in her honor. He is accompanied by Harmonica, a man already on a quest to get even.
+url: https://www.imdb.com/title/tt0064116/?ref_=chttp_t_52

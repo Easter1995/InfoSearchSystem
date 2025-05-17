@@ -1,7 +1,7 @@
 The Lord of the Rings: The Two Towers
 rate: 8.8
-director: Peter Jackson
-writers: J.R.R. Tolkien/Fran Walsh/Philippa Boyens
-stars: Elijah Wood/Ian McKellen/Viggo Mortensen
-While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.
+Peter Jackson
+J.R.R. Tolkien/Fran Walsh/Philippa Boyens
+Elijah Wood/Ian McKellen/Viggo Mortensen
+The continuing quest of Frodo and the Fellowship to destroy the One Ring. Frodo and Sam discover they are being followed by the mysterious Gollum. Aragorn, the Elf archer Legolas, and Gimli the Dwarf encounter the besieged Rohan kingdom, whose once great King Theoden has fallen under Saruman's deadly spell.
 url: https://www.imdb.com/title/tt0167261/?ref_=chttp_t_12

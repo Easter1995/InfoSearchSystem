@@ -1,7 +1,7 @@
 Hauru no ugoku shiro
 rate: 8.2
-director: Hayao Miyazaki
-writers: Hayao Miyazaki/Diana Wynne Jones
-stars: Chieko Baishô/Takuya Kimura/Tatsuya Gashûin
-When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions ...
+Hayao Miyazaki
+Hayao Miyazaki/Diana Wynne Jones
+Chieko Baishô/Takuya Kimura/Tatsuya Gashûin
+With her country's peace constantly under threat, Sophie, a lively but unloved milliner, catches the attention of an unexpected defender. But as the wide-eyed damsel in distress crosses paths with handsome Howl, a talented young magician with excess emotional baggage, a fit of jealousy turns the hat maker's world upside down forever. Now, stained by the indelible mark of the wicked Witch of the Waste, Sophie must move mountains to break the pitiless spell, including facing her fears and the mysterious sorcerer. However, has anyone ever set foot in Howl's impenetrable home, a walking wonder powered by a fiery heart, and lived to tell the tale?
 url: https://www.imdb.com/title/tt0347149/?ref_=chttp_t_157

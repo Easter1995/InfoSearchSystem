@@ -1,7 +1,7 @@
 The Dark Knight
 rate: 9.0
-director: Christopher Nolan
-writers: Jonathan Nolan/Christopher Nolan/David S. Goyer
-stars: Christian Bale/Heath Ledger/Aaron Eckhart
-When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.
+Christopher Nolan
+Jonathan Nolan/Christopher Nolan/David S. Goyer
+Christian Bale/Heath Ledger/Aaron Eckhart
+Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as "The Joker" appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to "confront everything he believes" and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes.
 url: https://www.imdb.com/title/tt0468569/?ref_=chttp_t_3

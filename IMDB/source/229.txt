@@ -1,7 +1,7 @@
 Shichinin no samurai
 rate: 8.6
-director: Akira Kurosawa
-writers: Akira Kurosawa/Shinobu Hashimoto/Hideo Oguni
-stars: Toshirô Mifune/Takashi Shimura/Keiko Tsushima
-Farmers from a village exploited by bandits hire a veteran samurai for protection, and he gathers six other samurai to join him.
+Akira Kurosawa
+Akira Kurosawa/Shinobu Hashimoto/Hideo Oguni
+Toshirô Mifune/Takashi Shimura/Keiko Tsushima
+A veteran samurai who has fallen on hard times answers a village's request for protection from bandits. He gathers six other samurai to help him. They teach the townspeople how to defend themselves, and the townspeople supply the samurai with three small meals a day. The film culminates in a giant battle when 40 bandits attack the village.
 url: https://www.imdb.com/title/tt0047478/?ref_=chttp_t_23

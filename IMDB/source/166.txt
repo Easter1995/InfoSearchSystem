@@ -1,7 +1,7 @@
 Once Upon a Time in America
 rate: 8.3
-director: Sergio Leone
-writers: Harry Grey/Leonardo Benvenuti/Piero De Bernardi
-stars: Robert De Niro/James Woods/Elizabeth McGovern
-A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan 35 years later, where he must once again confront the ghosts and regrets of his old life.
+Sergio Leone
+Harry Grey/Leonardo Benvenuti/Piero De Bernardi
+Robert De Niro/James Woods/Elizabeth McGovern
+With the vivid memory of his long-gone childhood friends Max, Patsy, and Cockeye etched in his mind, his ferociously loyal partners-in-crime during their rise to prominence in New York's Prohibition-era Lower East Side, the defeated, penniless, and guilt-ridden former gangster David "Noodles" Aaronson returns to Manhattan. Not knowing what to expect on his mission to shed light on his opaque past, grizzled Noodles reunites with his only living friend Fat Moe after 35 haunted years of self-exile. However, the relentless, piercing sound of culpability stands in the way of finding closure, as the inscrutable content of a well-worn leather suitcase further complicates matters. And now, against the backdrop of a torn conscience, the sad, bittersweet recollections of more than 50 years of love, death, and everything in-between become inextricably intertwined, leading to even more puzzling questions. But what are a man's options when he is left with nothing?
 url: https://www.imdb.com/title/tt0087843/?ref_=chttp_t_87

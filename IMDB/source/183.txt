@@ -1,7 +1,7 @@
 Aliens
 rate: 8.4
-director: James Cameron
-writers: James Cameron/David Giler/Walter Hill
-stars: Sigourney Weaver/Michael Biehn/Carrie Henn
-Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.
+James Cameron
+James Cameron/David Giler/Walter Hill
+Sigourney Weaver/Michael Biehn/Carrie Henn
+57 years after Ellen Ripley had a close encounter with the reptilian alien creature from the first movie, she is called back, this time, to help a group of highly trained colonial marines fight off against the sinister extraterrestrials. But this time, the aliens have taken over a space colony on the moon LV-426. When the colonial marines are called upon to search the deserted space colony, they later find out that they are up against more than what they bargained for. Using specially modified machine guns and enough firepower, it's either fight or die as the space marines battle against the aliens.
 url: https://www.imdb.com/title/tt0090605/?ref_=chttp_t_70

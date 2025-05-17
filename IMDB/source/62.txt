@@ -1,7 +1,7 @@
 Hacksaw Ridge
 rate: 8.1
-director: Mel Gibson
-writers: Robert Schenkkan/Andrew Knight
-stars: Andrew Garfield/Sam Worthington/Luke Bracey
-World War II American Army Medic Desmond T. Doss, serving during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor wit...
+Mel Gibson
+Robert Schenkkan/Andrew Knight
+Andrew Garfield/Sam Worthington/Luke Bracey
+The true story of
 url: https://www.imdb.com/title/tt2119532/?ref_=chttp_t_191

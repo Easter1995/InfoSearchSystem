@@ -1,7 +1,7 @@
 Sunset Boulevard
 rate: 8.4
-director: Billy Wilder
-writers: Charles Brackett/Billy Wilder/D.M. Marshman Jr.
-stars: William Holden/Gloria Swanson/Erich von Stroheim
-A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.
+Billy Wilder
+Charles Brackett/Billy Wilder/D.M. Marshman Jr.
+William Holden/Gloria Swanson/Erich von Stroheim
+Desperate for cash, screenwriter Joe Gillis has a chance meeting with a faded silent film star. Norma Desmond lives in her crumbling Sunset Boulevard mansion with only her butler to keep her company. She has become a sad demented recluse convinced that the outside world is clamoring for her dramatic return. Enticing him with the prospect of script work she puts him up in her mansion and he becomes ever more involved and entangled in her life.
 url: https://www.imdb.com/title/tt0043014/?ref_=chttp_t_62

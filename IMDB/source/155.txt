@@ -1,7 +1,7 @@
 2001: A Space Odyssey
 rate: 8.3
-director: Stanley Kubrick
-writers: Stanley Kubrick/Arthur C. Clarke
-stars: Keir Dullea/Gary Lockwood/William Sylvester
-When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two humans and one supercomputer is sent to Jupiter to find its origins.
+Stanley Kubrick
+Stanley Kubrick/Arthur C. Clarke
+Keir Dullea/Gary Lockwood/William Sylvester
+"2001" is a story of evolution. Sometime in the distant past, someone or something nudged evolution by placing a monolith on Earth (presumably elsewhere throughout the universe as well). Evolution then enabled humankind to reach the moon's surface, where yet another monolith is found, one that signals the monolith placers that humankind has evolved that far. Now mankind, assisted by artificial intelligence (such as HAL), must dare to encounter the monolith placers. If successful, the next step in evolution--whatever it is--will be achieved.
 url: https://www.imdb.com/title/tt0062622/?ref_=chttp_t_98

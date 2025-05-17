@@ -1,7 +1,7 @@
-Drishyam
-rate: 8.2
-director: Nishikant Kamat
-writers: Jeethu Joseph/Upendra Sidhaye
-stars: Ajay Devgn/Shriya Saran/Tabu
-Desperate measures are taken by a man who tries to save his family from the dark side of the law, after they commit an unexpected crime.
-url: https://www.imdb.com/title/tt4430212/?ref_=chttp_t_250
+Rebecca
+rate: 8.1
+Alfred Hitchcock
+Daphne Du Maurier/Robert E. Sherwood/Joan Harrison
+Laurence Olivier/Joan Fontaine/George Sanders
+A shy lady's companion, staying in Monte Carlo with her stuffy employer, meets the wealthy Maxim de Winter (Sir Laurence Olivier). She and Max fall in love, marry, and return to Manderley, his large country estate in Cornwall. Max is still troubled by the death of his first wife, Rebecca, in a boating accident the year before. The second Mrs. de Winter (Joan Fontaine) clashes with the housekeeper, Mrs. Danvers (Dame Judith Anderson), and discovers that Rebecca still has a strange hold on everyone at Manderley.
+url: https://www.imdb.com/title/tt0032976/?ref_=chttp_t_250

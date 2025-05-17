@@ -1,7 +1,7 @@
 Pirates of the Caribbean: The Curse of the Black Pearl
 rate: 8.1
-director: Gore Verbinski
-writers: Ted Elliott/Terry Rossio/Stuart Beattie
-stars: Johnny Depp/Geoffrey Rush/Orlando Bloom
-Blacksmith Will Turner teams up with eccentric pirate "Captain" Jack Sparrow to save Elizabeth Swann, the governor's daughter and his love, from Jack's former pirate allies, who are now unde...
+Gore Verbinski
+Ted Elliott/Terry Rossio/Stuart Beattie
+Johnny Depp/Geoffrey Rush/Orlando Bloom
+This swash-buckling tale follows the quest of Captain Jack Sparrow, a savvy pirate, and Will Turner, a resourceful blacksmith, as they search for Elizabeth Swann. Elizabeth, the daughter of the governor and the love of Will's life, has been kidnapped by the feared Captain Barbossa. Little do they know, but the fierce and clever Barbossa has been cursed. He, along with his large crew, are under an ancient curse, doomed for eternity to neither live, nor die. That is, unless a blood sacrifice is made.
 url: https://www.imdb.com/title/tt0325980/?ref_=chttp_t_221

@@ -1,7 +1,7 @@
 Judgment at Nuremberg
 rate: 8.3
-director: Stanley Kramer
-writers: Abby Mann/Montgomery Clift
-stars: Spencer Tracy/Burt Lancaster/Richard Widmark
-Fictionalized depiction of the 1947 Judges' Trial, the third of 12 trials of Nazi war criminals conducted by the American occupying forces in Nuremberg, Germany, in which former judges of Na...
+Stanley Kramer
+Abby Mann/Montgomery Clift
+Spencer Tracy/Burt Lancaster/Richard Widmark
+It has been three years since the most important Nazi leaders have been tried. This trial is about four judges who used their offices to conduct Nazi sterilization and cleansing policies. Retired American judge Dan Haywood has a daunting task ahead of him. The Cold War is heating up and no one wants any more trials as Germany, and Allied governments, want to forget the past. The tribunal must decide whether that's the right thing to do.
 url: https://www.imdb.com/title/tt0055031/?ref_=chttp_t_135

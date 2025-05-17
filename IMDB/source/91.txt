@@ -1,7 +1,7 @@
 Klaus
 rate: 8.2
-director: Sergio Pablos
-writers: Sergio Pablos/Jim Mahoney/Zach Lewis
-stars: Jason Schwartzman/J.K. Simmons/Rashida Jones
-A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliv...
+Sergio Pablos
+Sergio Pablos/Jim Mahoney/Zach Lewis
+Jason Schwartzman/J.K. Simmons/Rashida Jones
+When Jesper distinguishes himself as the postal academy's worst student, he is stationed on a frozen island above the Arctic Circle where the feuding locals hardly exchange words let alone letters. Jesper is about to give up when he finds an ally in local teacher Alva and discovers Klaus, a mysterious carpenter who lives alone in a cabin full of handmade toys. These unlikely friendships return laughter to Smeerensburg, forging a new legacy of generous neighbors, magical lore, and stockings hung by the chimney with care.
 url: https://www.imdb.com/title/tt4729430/?ref_=chttp_t_162
