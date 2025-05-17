@@ -11,8 +11,6 @@ nltk.download('wordnet')
 
 # 停用词
 stop_words = set(get_stop_words('en'))
-new_words = ['writers', 'director', 'stars']
-stop_words = stop_words.union(new_words)
 # 还原基本词型
 lem = WordNetLemmatizer()
 
@@ -26,7 +24,6 @@ for i in range(1, 251):
         lines = f.readlines()
         line = lines[0] + lines[2] + lines[3] + lines[4] + lines[5]
         line = re.sub('[^a-zA-Z]', ' ', line)               # 只保留字母
-        line = re.sub('&lt;/?.*?&gt', ' &lt;&gt; ', line)   # 去掉标签
         line = line.lower()                                 # 全部小写
         raw_text = line.split()
         clean_line = [lem.lemmatize(word) for word in raw_text if not word in stop_words]
