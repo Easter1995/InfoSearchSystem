@@ -2,6 +2,7 @@ import json
 import re
 import nltk
 import numpy as np
+import datetime
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -94,9 +95,11 @@ def search():
     query = request.args.get('q', '')
     if not query.strip():
         return jsonify({"error": "查询不能为空"}), 400
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     results = handle_query(query)
     return jsonify({
         "total": len(results),
+        "timestamp": timestamp,
         "results": results
     })
 
@@ -105,7 +108,8 @@ def save_rate():
     data = request.json
     if not data or 'query' not in data or 'rate' not in data:
         return jsonify({"error": "缺少必要的字段"}), 400
-    rate_file.write(f"查询: {data['query']}, 评分: {data['rate']}, 时间: {data.get('timestamp', 'N/A')}\n")
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    rate_file.write(f"查询: {data['query']}, 评分: {data['rate']}, 时间: {timestamp}\n")
     rate_file.flush()
     return jsonify({"success": True, "message": "评价已记录"})
 
