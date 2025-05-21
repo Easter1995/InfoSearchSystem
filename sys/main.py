@@ -114,5 +114,5 @@ def save_rate():
     return jsonify({"success": True, "message": "评价已记录"})
 
 if __name__ == '__main__':
-    print("启动搜索...")
+    print("search begins...")
     app.run(host='127.0.0.1', port=5000, debug=True)
