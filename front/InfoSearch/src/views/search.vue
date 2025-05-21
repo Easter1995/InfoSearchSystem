@@ -7,6 +7,7 @@ import { nextTick, ref } from 'vue';
 import { stemmer } from 'stemmer'
 
 const userInput = ref('')
+const userWrongInput = ref('')
 const userRate = ref(0)
 const isFirstSearch = ref(true)
 const showContent = ref(false)
@@ -14,6 +15,8 @@ const showRate = ref(false)
 const rateFixed = ref(false)
 const searchList = ref<SearchResult>({
     results: [],
+    corrections: [],
+    has_corrections: false,
     timestamp: '',
     total: 0
 })
@@ -37,12 +40,18 @@ const onRateLeave = () => {
 const highlight = (text: string, match: string, type: number) => {
     if (!text || !match) return text
 
-    const stemmedMatch = stemmer(match.toLowerCase()).trim()
+    let stemmedMatches: string[] = []
+    const raw = match.split(' ')
+    for (let w of raw) {
+        stemmedMatches.push(w.trim().toLowerCase())
+    }
 
     return text.replace(/\b\w+\b/g, (word) => {
         const stemmedWord = stemmer(word.toLowerCase())
-        if (stemmedWord === stemmedMatch) {
-            return `<span class="highlight">${word}</span>`
+        for (let stemmedMatch of stemmedMatches) {
+            if (stemmedWord === stemmedMatch) {
+                return `<span class="highlight">${word}</span>`
+            }
         }
         return word
     })
@@ -72,6 +81,7 @@ const handleSearch = async () => {
         return
     }
     showContent.value = true
+    userWrongInput.value = userInput.value
     showRate.value = true
     searchList.value = res
 }
@@ -109,6 +119,15 @@ const handleRate = async (val: number) => {
             </transition>
 
             <div class="search-body">
+                <div v-if="searchList.has_corrections" class="correctionsC">
+                    <span v-for="(corrected, wrong) in searchList.corrections">
+                        "{{ wrong }}"
+                    </span>
+                    dosen't match any. Results are shown for:
+                    <span v-for="(corrected, wrong) in searchList.corrections">
+                        "{{ corrected }}"
+                    </span>
+                </div>
                 <ul class="search-list" style="list-style: none;">
                     <li class="search-content" v-for="(item, index) in searchList.results" :key="index">
                         <div class="info">
@@ -202,6 +221,13 @@ const handleRate = async (val: number) => {
             }
         }
     }
+}
+
+.correctionsC {
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff;
 }
 
 .slide-rate-enter-active,

@@ -11,6 +11,8 @@ export interface SearchInfo {
 }
 
 export interface SearchResult {
+    corrections: Array<string>,
+    has_corrections: Boolean,
     results: Array<SearchInfo>,
     timestamp: string,
     total: number
