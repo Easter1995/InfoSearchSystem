@@ -7,6 +7,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from nltk.stem.wordnet import WordNetLemmatizer
 from stop_words import get_stop_words
+from spellchecker import SpellChecker
 
 app = Flask(__name__)
 CORS(app)
@@ -14,6 +15,7 @@ CORS(app)
 nltk.download('wordnet')
 stop_words = set(get_stop_words('en'))
 lem = WordNetLemmatizer()
+spell = SpellChecker()
 
 with open('json/key_words.json', 'r') as f:
     key_words = json.load(f)
@@ -39,6 +41,26 @@ def get_info(v):
                 'url': lines[6].strip().replace('url: ', '') if len(lines) > 6 else ""
             }
 
+
+def correct_spelling(words):
+    corrected = []
+    correction_info = {}
+    for w in words:
+        if w not in key_words and len(w) > 3:
+            if w not in spell:
+                correct_w = spell.correction(w)
+                # 修正后在关键词列表中才采用
+                if correct_w != w and correct_w in key_words:
+                    corrected.append(correct_w)
+                    correction_info[w] = correct_w
+                else:
+                    corrected.append(w)
+            else:
+                corrected.append(w)
+        else:
+            corrected.append(w)
+    return corrected, correction_info
+            
 def handle_query(message):
     # 预处理 
     line = re.sub("[^a-zA-Z]", " ", message)
@@ -46,6 +68,9 @@ def handle_query(message):
     words = line.split()
     words = [lem.lemmatize(w) for w in words if not w in stop_words]
     
+    # 拼写纠正
+    words, correction_info = correct_spelling(words)
+
     # 查询向量
     query_vec = []
     for i in range(500):
@@ -88,31 +113,34 @@ def handle_query(message):
         result = ret_info[doc_id[0]]
         result.update(get_info(doc_id[0]))
         ret_list.append(result)
-    return ret_list
+    
+    return ret_list, correction_info
 
 @app.route('/api/search', methods=['GET'])
 def search():
     query = request.args.get('q', '')
     if not query.strip():
-        return jsonify({"error": "查询不能为空"}), 400
+        return jsonify({"error": "Query cannot be empty"}), 400
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    results = handle_query(query)
+    results, corrections = handle_query(query)
     return jsonify({
         "total": len(results),
         "timestamp": timestamp,
-        "results": results
+        "results": results,
+        "corrections": corrections,
+        "has_corrections": len(corrections) > 0
     })
 
 @app.route('/api/rate', methods=['POST'])
 def save_rate():
     data = request.json
     if not data or 'query' not in data or 'rate' not in data:
-        return jsonify({"error": "缺少必要的字段"}), 400
+        return jsonify({"error": "Missing fields"}), 400
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    rate_file.write(f"查询: {data['query']}, 评分: {data['rate']}, 时间: {timestamp}\n")
+    rate_file.write(f"QUERY: {data['query']}, RATE:{data['rate']}, TIME: {timestamp}\n")
     rate_file.flush()
-    return jsonify({"success": True, "message": "评价已记录"})
+    return jsonify({"success": True, "message": "Rating saved successfully"}), 200
 
 if __name__ == '__main__':
-    print("search begins...")
+    print("Search begins...")
     app.run(host='127.0.0.1', port=5000, debug=True)
