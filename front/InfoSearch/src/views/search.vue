@@ -11,6 +11,7 @@ const userRate = ref(0)
 const isFirstSearch = ref(true)
 const showContent = ref(false)
 const showRate = ref(false)
+const rateFixed = ref(false)
 const searchList = ref<SearchResult>({
     results: [],
     timestamp: '',
@@ -25,21 +26,30 @@ enum textType {
     SUM
 }
 
+const onRateEnter = () => {
+    rateFixed.value = true
+}
+
+const onRateLeave = () => {
+    rateFixed.value = false
+}
+
 const highlight = (text: string, match: string, type: number) => {
-  if (!text || !match) return text
+    if (!text || !match) return text
 
-  const stemmedMatch = stemmer(match.toLowerCase()).trim()
+    const stemmedMatch = stemmer(match.toLowerCase()).trim()
 
-  return text.replace(/\b\w+\b/g, (word) => {
-    const stemmedWord = stemmer(word.toLowerCase())
-    if (stemmedWord === stemmedMatch) {
-      return `<span class="highlight">${word}</span>`
-    }
-    return word
-  })
+    return text.replace(/\b\w+\b/g, (word) => {
+        const stemmedWord = stemmer(word.toLowerCase())
+        if (stemmedWord === stemmedMatch) {
+            return `<span class="highlight">${word}</span>`
+        }
+        return word
+    })
 }
 
 const handleSearch = async () => {
+    showRate.value = false
     if (!userInput.value) return
     if (isFirstSearch.value) {
         isFirstSearch.value = false
@@ -89,12 +99,15 @@ const handleRate = async (val: number) => {
     <div class="main">
         <div class="container">
             <div class="search-box">
-                <el-input v-model="userInput" style="width: 600px; height: 70px;" placeholder="Type something"
+                <el-input v-model="userInput" style="width: 600px; height: 70px;" placeholder="Type Something..."
                     :prefix-icon="Search" @keyup.enter="handleSearch" />
             </div>
-            <div class="rate" v-if="showRate">
-                <el-rate v-model="userRate" @change="handleRate" size="large" allow-half />
-            </div>
+            <transition name="slide-rate" @after-enter="onRateEnter" @before-leave="onRateLeave">
+                <div class="rate" :class="{ 'rate-fixed': rateFixed }" v-if="showRate" style="right: 0;">
+                    <el-rate v-model="userRate" @change="handleRate" size="large" allow-half />
+                </div>
+            </transition>
+
             <div class="search-body">
                 <ul class="search-list" style="list-style: none;">
                     <li class="search-content" v-for="(item, index) in searchList.results" :key="index">
@@ -138,7 +151,6 @@ const handleRate = async (val: number) => {
 
     .rate {
         z-index: 100;
-        right: 10px;
         bottom: 30px;
         height: 50px;
         padding: 9px;
@@ -147,13 +159,17 @@ const handleRate = async (val: number) => {
         justify-content: center;
         align-items: center;
         position: fixed;
-        background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+        border: #c9c9c9 solid 1px;
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
         border-radius: 20px;
+    }
+    .rate-fixed {
+        right: 20px !important;
     }
 
     .container {
         padding: 30px;
-        
+
         .search-box {
             text-align: center;
             margin-bottom: 30px;
@@ -173,10 +189,12 @@ const handleRate = async (val: number) => {
                 .info {
                     font-size: 14px;
                 }
+
                 .title {
                     font-weight: bolder;
                     margin-bottom: 10px;
                 }
+
                 .summary {
                     margin-top: 10px;
                     font-size: small;
@@ -184,6 +202,20 @@ const handleRate = async (val: number) => {
             }
         }
     }
+}
+
+.slide-rate-enter-active,
+.slide-rate-leave-active {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-rate-enter-from,
+.slide-rate-leave-to {
+    transform: translateX(100%);
+}
+
+.slide-rate-enter-to {
+    transform: translateX(-20px);
 }
 
 ::v-deep .highlight {
