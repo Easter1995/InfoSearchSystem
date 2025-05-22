@@ -150,6 +150,10 @@ const handleRate = async (val: number) => {
                         </div>
                         <div class="summary" v-html="highlight(item.summary, item.match, textType.SUM)"></div>
                         <el-divider></el-divider>
+                        <div class="info">
+                            <span>Original Website: </span>
+                            <a :href="item.url">{{ item.url }}</a>
+                        </div>
                         <div class="info">Search Timestamp: {{ searchList.timestamp }}</div>
                         <div class="info">Count: {{ index + 1 }} / {{ searchList.total }} </div>
                     </li>
@@ -179,7 +183,7 @@ const handleRate = async (val: number) => {
         align-items: center;
         position: fixed;
         box-shadow: 0px 3px 7px rgb(113, 113, 113);
-        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
         border-radius: 20px;
     }
     .rate-fixed {
@@ -207,6 +211,9 @@ const handleRate = async (val: number) => {
 
                 .info {
                     font-size: 14px;
+                    a {
+                        color: #cc89ba;
+                    }
                 }
 
                 .title {
