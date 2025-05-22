@@ -7,7 +7,7 @@ import { nextTick, ref } from 'vue';
 import { stemmer } from 'stemmer'
 
 const userInput = ref('')
-const userWrongInput = ref('')
+const userInputSave = ref('')
 const userRate = ref(0)
 const isFirstSearch = ref(true)
 const showContent = ref(false)
@@ -43,13 +43,16 @@ const highlight = (text: string, match: string, type: number) => {
     let stemmedMatches: string[] = []
     const raw = match.split(' ')
     for (let w of raw) {
-        stemmedMatches.push(w.trim().toLowerCase())
+        if (w.trim() !== '') {
+            stemmedMatches.push(w.trim().toLowerCase())
+        }
     }
 
     return text.replace(/\b\w+\b/g, (word) => {
-        const stemmedWord = stemmer(word.toLowerCase())
+        const stemmedWord = stemmer(word.trim().toLowerCase())
+        const rawWord = word.trim().toLocaleLowerCase()
         for (let stemmedMatch of stemmedMatches) {
-            if (stemmedWord === stemmedMatch) {
+            if (stemmedWord === stemmedMatch || rawWord === stemmedMatch) {
                 return `<span class="highlight">${word}</span>`
             }
         }
@@ -60,10 +63,8 @@ const highlight = (text: string, match: string, type: number) => {
 const handleSearch = async () => {
     showRate.value = false
     if (!userInput.value) return
-    if (isFirstSearch.value) {
-        isFirstSearch.value = false
-        await nextTick()
-    }
+    
+    userInputSave.value = userInput.value
 
     const loading = ElLoading.service({
         lock: true,
@@ -81,14 +82,13 @@ const handleSearch = async () => {
         return
     }
     showContent.value = true
-    userWrongInput.value = userInput.value
     showRate.value = true
     searchList.value = res
 }
 
 const handleRate = async (val: number) => {
     userRate.value = val
-    const res = await subRate(userInput.value, userRate.value)
+    const res = await subRate(userInputSave.value, userRate.value)
     if (res.success) {
         ElNotification({
             type: 'success',
@@ -178,7 +178,7 @@ const handleRate = async (val: number) => {
         justify-content: center;
         align-items: center;
         position: fixed;
-        border: #c9c9c9 solid 1px;
+        box-shadow: 0px 3px 7px rgb(113, 113, 113);
         background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
         border-radius: 20px;
     }
