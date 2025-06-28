@@ -37,10 +37,17 @@ export interface ExtractExtraInfo {
 
 export interface ExtractAttribute {
     doc_id: string,
-    basic_info: ExtractBasicInfo,
-
+    // basic_info: ExtractBasicInfo,
+    extracted_info: ExtractExtraInfo,
+    success: boolean
 }
 
-export interface ExtractResult {
-
+export interface ExtractSearchInfo {
+    doc_id: string,
+    match_score: number,
+}
+export interface ExtractSearchResult {
+    query: string,
+    type: string,
+    total: number,
 }

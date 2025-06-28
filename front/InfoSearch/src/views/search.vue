@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import { getInfo, subRate } from '@/api/search';
-import { SearchResult } from '@/typings/searchType';
+import { getExtractedInfo, getInfo, subRate } from '@/api/search';
+import { ExtractExtraInfo, SearchResult } from '@/typings/searchType';
 import { Search } from '@element-plus/icons-vue'
 import { ElLoading, ElNotification } from 'element-plus';
-import { nextTick, ref } from 'vue';
+import { ref } from 'vue';
 import { stemmer } from 'stemmer'
 
 const userInput = ref('')
 const userInputSave = ref('')
 const userRate = ref(0)
-const isFirstSearch = ref(true)
 const showContent = ref(false)
 const showRate = ref(false)
 const rateFixed = ref(false)
@@ -20,6 +19,8 @@ const searchList = ref<SearchResult>({
     timestamp: '',
     total: 0
 })
+
+const extractedInfoList = ref<Map<string, ExtractExtraInfo> | null>()
 
 enum textType {
     DIR = 0,
@@ -62,8 +63,8 @@ const highlight = (text: string, match: string, type: number) => {
 
 const handleSearch = async () => {
     showRate.value = false
-    if (!userInput.value) return
-    
+    if (!userInput.value.trim()) return
+
     userInputSave.value = userInput.value
 
     const loading = ElLoading.service({
@@ -84,6 +85,20 @@ const handleSearch = async () => {
     showContent.value = true
     showRate.value = true
     searchList.value = res
+}
+
+const handleGetExtract = async (doc_id: string) => {
+    if (!extractedInfoList.value) {
+        extractedInfoList.value = new Map()
+    }
+    if (extractedInfoList.value.has(doc_id)) {
+        extractedInfoList.value.delete(doc_id)
+        return
+    }
+    const res = await getExtractedInfo(doc_id)
+    // console.log(res)
+
+    extractedInfoList.value.set(doc_id, res.extracted_info)
 }
 
 const handleRate = async (val: number) => {
@@ -130,32 +145,76 @@ const handleRate = async (val: number) => {
                 </div>
                 <ul class="search-list" style="list-style: none;">
                     <li class="search-content" v-for="(item, index) in searchList.results" :key="index">
-                        <div class="info">
-                            Similarity: {{ item.sim }} Target: {{ item.match }}
+                        <div class="info"
+                            style="display: inline-flex; justify-content: space-between; width: 100%; text-align: center;">
+                            <div>
+                                Similarity: {{ item.sim }} Target: {{ item.match }}
+                            </div>
+                            <div>
+                                <el-button type="text" @click="handleGetExtract(item.url)">
+                                    {{ extractedInfoList?.has(item.url) ? "BACK" : "SHOW EXTRACTED ATTRIBUTES" }}
+                                </el-button>
+                            </div>
                         </div>
-                        <el-divider></el-divider>
-                        <div class="title" v-html="highlight(item.title, item.match, textType.TITLE)"></div>
-                        <div class="info">rate: {{ item.rate }}</div>
-                        <div class="info">
-                            <span>Director: </span>
-                            <span class="info" v-html="highlight(item.director, item.match, textType.DIR)"></span>
+                        <div v-if="extractedInfoList && extractedInfoList.has(item.url)">
+                            <div v-if="extractedInfoList.get(item.url)!.keywords.length > 0">
+                                <div class="title">Keywords:</div>
+                                <ul>
+                                    <li v-for="(kItem, index) in extractedInfoList.get(item.url)!.keywords">
+                                        <div class="info">{{ kItem }}</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div v-if="extractedInfoList.get(item.url)!.locations.length > 0">
+                                <div class="title">Locations:</div>
+                                <ul>
+                                    <li v-for="(lItem, index) in extractedInfoList.get(item.url)!.locations">
+                                        <div class="info">{{ lItem }}</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div v-if="extractedInfoList.get(item.url)!.organizations.length > 0">
+                                <div class="title">Organizations:</div>
+                                <ul>
+                                    <li v-for="(oItem, index) in extractedInfoList.get(item.url)!.organizations">
+                                        <div class="info">{{ oItem }}</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div v-if="extractedInfoList.get(item.url)!.persons.length > 0">
+                                <div class="title">Persons:</div>
+                                <ul>
+                                    <li v-for="(pItem, index) in extractedInfoList.get(item.url)!.persons">
+                                        <div class="info">{{ pItem }}</div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="info">
-                            <span>Writers: </span>
-                            <span class="info" v-html="highlight(item.writers, item.match, textType.WRI)"></span>
+                        <div v-else>
+                            <el-divider></el-divider>
+                            <div class="title" v-html="highlight(item.title, item.match, textType.TITLE)"></div>
+                            <div class="info">rate: {{ item.rate }}</div>
+                            <div class="info">
+                                <span>Director: </span>
+                                <span class="info" v-html="highlight(item.director, item.match, textType.DIR)"></span>
+                            </div>
+                            <div class="info">
+                                <span>Writers: </span>
+                                <span class="info" v-html="highlight(item.writers, item.match, textType.WRI)"></span>
+                            </div>
+                            <div class="info">
+                                <span>Stars: </span>
+                                <span class="info" v-html="highlight(item.stars, item.match, textType.STAR)"></span>
+                            </div>
+                            <div class="summary" v-html="highlight(item.summary, item.match, textType.SUM)"></div>
+                            <el-divider></el-divider>
+                            <div class="info">
+                                <span>Original Website: </span>
+                                <a :href="item.url">{{ item.url }}</a>
+                            </div>
+                            <div class="info">Search Timestamp: {{ searchList.timestamp }}</div>
+                            <div class="info">Count: {{ index + 1 }} / {{ searchList.total }} </div>
                         </div>
-                        <div class="info">
-                            <span>Stars: </span>
-                            <span class="info" v-html="highlight(item.stars, item.match, textType.STAR)"></span>
-                        </div>
-                        <div class="summary" v-html="highlight(item.summary, item.match, textType.SUM)"></div>
-                        <el-divider></el-divider>
-                        <div class="info">
-                            <span>Original Website: </span>
-                            <a :href="item.url">{{ item.url }}</a>
-                        </div>
-                        <div class="info">Search Timestamp: {{ searchList.timestamp }}</div>
-                        <div class="info">Count: {{ index + 1 }} / {{ searchList.total }} </div>
                     </li>
                 </ul>
             </div>
@@ -186,6 +245,7 @@ const handleRate = async (val: number) => {
         background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
         border-radius: 20px;
     }
+
     .rate-fixed {
         right: 20px !important;
     }
@@ -211,6 +271,7 @@ const handleRate = async (val: number) => {
 
                 .info {
                     font-size: 14px;
+
                     a {
                         color: #cc89ba;
                     }

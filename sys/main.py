@@ -191,23 +191,26 @@ def save_rate():
     return jsonify({"success": True, "message": "Rating saved successfully"}), 200
 
 # 信息抽取
-@app.route('/api/extract/<int:doc_id>', methods=['GET'])
-def get_extraction(doc_id):
+@app.route('/api/extract', methods=['GET'])
+def get_extraction():
+    doc_id = request.args.get('url')
+    if not doc_id:
+        return jsonify({"error": "Missing 'url' parameter"}), 400
     try:
-        basic_info = get_info(doc_id)
+        # basic_info = get_info(doc_id)
         extracted = get_extracted_info(doc_id)
         
         if extracted:
             return jsonify({
                 "doc_id": doc_id,
-                "basic_info": basic_info,
+                # "basic_info": basic_info,
                 "extracted_info": extracted,
                 "success": True
             })
         else:
             return jsonify({
                 "doc_id": doc_id,
-                "basic_info": basic_info,
+                # "basic_info": basic_info,
                 "error": "No extraction data found for this document",
                 "success": False
             }), 404
