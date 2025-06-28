@@ -17,3 +17,30 @@ export interface SearchResult {
     timestamp: string,
     total: number
 }
+
+export interface ExtractBasicInfo {
+    title: string,
+    rate: string,
+    director: string,
+    writers: string,
+    stars: string,
+    summary: string,
+    url: string
+}
+
+export interface ExtractExtraInfo {
+    keywords: Array<string>,
+    persons: Array<string>,
+    organizations: Array<string>,
+    locations: Array<string>
+}
+
+export interface ExtractAttribute {
+    doc_id: string,
+    basic_info: ExtractBasicInfo,
+
+}
+
+export interface ExtractResult {
+
+}
