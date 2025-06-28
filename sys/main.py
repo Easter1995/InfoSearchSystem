@@ -27,7 +27,31 @@ with open('json/reverse_index.json', 'r') as f:
     reverse_index = json.load(f)
 
 with open('json/extracted_info.json', 'r') as f:
-    extracted_info = json.load(f)
+    extracted_info_list = json.load(f)
+    extracted_info = {}
+    for i, item in enumerate(extracted_info_list):
+        if 'extracted' in item:
+            extracted_info[str(i+1)] = item['extracted']
+
+entity_index = {
+    'persons': {},
+    'organizations': {}, 
+    'locations': {},
+    'keywords': {}
+}
+
+def build_entity_index():
+    for doc_id, extracted in extracted_info.items():
+        for entity_type in entity_index:
+            if entity_type in extracted:
+                for item in extracted[entity_type]:
+                    item_lower = item.lower()
+                    if item_lower not in entity_index[entity_type]:
+                        entity_index[entity_type][item_lower] = []
+                    entity_index[entity_type][item_lower].append(doc_id)
+    print(f"实体倒排索引构建完成: {sum(len(items) for t in entity_index.values() for items in t.values())} 个实体索引项")
+
+build_entity_index()
 
 rate_file = open('rate.txt', 'a')
 extracted_rate_file = open('extraction_rate.txt', 'a')
@@ -50,6 +74,21 @@ def get_extracted_info(doc_id):
     if doc_key in extracted_info:
         return extracted_info[doc_key]
     return None
+
+def validate_request(required_fields, data):
+    for field in required_fields:
+        if field not in data or not str(data[field]).strip():
+            return False, f"Missing required field: {field}"
+    return True, None
+
+def search_entity_matches(query, entity_type, extracted_data):
+    if entity_type in extracted_data:
+        matches = [item for item in extracted_data[entity_type] if query in item.lower()]
+        if matches:
+            # 关键词的权重设为0.5，其他类型为1.0
+            weight = 0.5 if entity_type == 'keywords' else 1.0
+            return matches, len(matches) * weight
+    return [], 0
 
 def correct_spelling(words):
     corrected = []
@@ -125,6 +164,7 @@ def handle_query(message):
     
     return ret_list, correction_info
 
+# 信息检索
 @app.route('/api/search', methods=['GET'])
 def search():
     query = request.args.get('q', '')
@@ -151,7 +191,6 @@ def save_rate():
     return jsonify({"success": True, "message": "Rating saved successfully"}), 200
 
 # 信息抽取
-
 @app.route('/api/extract/<int:doc_id>', methods=['GET'])
 def get_extraction(doc_id):
     try:
@@ -179,69 +218,67 @@ def get_extraction(doc_id):
 @app.route('/api/extract/search', methods=['GET'])
 def search_by_extraction():
     query = request.args.get('q', '').lower()
-    info_type = request.args.get('type', 'all')  # all, persons, organizations, locations, keywords
+    info_type = request.args.get('type', 'all')
     
     if not query.strip():
         return jsonify({"error": "Query cannot be empty"}), 400
     
     results = []
+    entity_types = ['persons', 'organizations', 'locations', 'keywords']
     
-    for doc_id, extracted in extracted_info.items():
-        match_score = 0
-        match_details = {}
+    try:
+        matching_docs = {}
+        types_to_search = [info_type] if info_type in entity_types else entity_types
         
-        # 根据类型搜索
-        if info_type == 'all' or info_type == 'persons':
-            if 'persons' in extracted:
-                matches = [p for p in extracted['persons'] if query in p.lower()]
-                if matches:
-                    match_score += len(matches)
-                    match_details['persons'] = matches
+        # 根据查询在倒排索引中搜索
+        for entity_type in types_to_search:
+            for entity, doc_ids in entity_index[entity_type].items():
+                if query in entity:
+                    weight = 0.5 if entity_type == 'keywords' else 1.0
+                    
+                    for doc_id in doc_ids:
+                        if doc_id not in matching_docs:
+                            matching_docs[doc_id] = {
+                                'score': 0,
+                                'details': {}
+                            }
+                        
+                        matching_docs[doc_id]['score'] += weight
+                        
+                        if entity_type not in matching_docs[doc_id]['details']:
+                            matching_docs[doc_id]['details'][entity_type] = []
+                        
+                        if entity not in matching_docs[doc_id]['details'][entity_type]:
+                            matching_docs[doc_id]['details'][entity_type].append(entity)
         
-        if info_type == 'all' or info_type == 'organizations':
-            if 'organizations' in extracted:
-                matches = [o for o in extracted['organizations'] if query in o.lower()]
-                if matches:
-                    match_score += len(matches)
-                    match_details['organizations'] = matches
-        
-        if info_type == 'all' or info_type == 'locations':
-            if 'locations' in extracted:
-                matches = [l for l in extracted['locations'] if query in l.lower()]
-                if matches:
-                    match_score += len(matches)
-                    match_details['locations'] = matches
-        
-        if info_type == 'all' or info_type == 'keywords':
-            if 'keywords' in extracted:
-                matches = [k for k in extracted['keywords'] if query in k.lower()]
-                if matches:
-                    match_score += len(matches) * 0.5  # 关键词权重稍低
-                    match_details['keywords'] = matches[:10]  # 限制关键词数量
-        
-        if match_score > 0:
+        # 处理匹配结果
+        for doc_id, match_info in matching_docs.items():
             try:
                 basic_info = get_info(int(doc_id))
+                if 'keywords' in match_info['details']:
+                    match_info['details']['keywords'] = match_info['details']['keywords'][:10]
                 results.append({
                     "doc_id": int(doc_id),
-                    "match_score": round(match_score, 2),
-                    "match_details": match_details,
+                    "match_score": round(match_info['score'], 2),
+                    "match_details": match_info['details'],
                     "basic_info": basic_info
                 })
             except Exception as e:
+                print(f"处理文档 {doc_id} 时出错: {str(e)}")
                 continue
-    
-    # 按匹配分数排序
-    results.sort(key=lambda x: x['match_score'], reverse=True)
-    
-    return jsonify({
-        "query": query,
-        "type": info_type,
-        "total": len(results),
-        "results": results[:50],
-        "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    })
 
+        results.sort(key=lambda x: x['match_score'], reverse=True)
+        
+        return jsonify({
+            "query": query,
+            "type": info_type,
+            "total": len(results),
+            "results": results[:50],  # 限制返回结果数量
+            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        })
+    except Exception as e:
+        return jsonify({"error": str(e), "success": False}), 500
+    
 @app.route('/api/extract/stats', methods=['GET'])
 def extraction_stats():
     stats = {
