@@ -29,9 +29,11 @@ with open('json/reverse_index.json', 'r') as f:
 with open('json/extracted_info.json', 'r') as f:
     extracted_info_list = json.load(f)
     extracted_info = {}
-    for i, item in enumerate(extracted_info_list):
-        if 'extracted' in item:
-            extracted_info[str(i+1)] = item['extracted']
+    for item in extracted_info_list:
+        if 'extracted' in item and 'url' in item:
+            # URL -> doc_id
+            url_id = item['url'].strip()
+            extracted_info[url_id] = item['extracted']
 
 entity_index = {
     'persons': {},
@@ -41,15 +43,14 @@ entity_index = {
 }
 
 def build_entity_index():
-    for doc_id, extracted in extracted_info.items():
+    for url_id, extracted in extracted_info.items():
         for entity_type in entity_index:
             if entity_type in extracted:
                 for item in extracted[entity_type]:
                     item_lower = item.lower()
                     if item_lower not in entity_index[entity_type]:
                         entity_index[entity_type][item_lower] = []
-                    entity_index[entity_type][item_lower].append(doc_id)
-    print(f"实体倒排索引构建完成: {sum(len(items) for t in entity_index.values() for items in t.values())} 个实体索引项")
+                    entity_index[entity_type][item_lower].append(url_id)
 
 build_entity_index()
 
@@ -69,10 +70,9 @@ def get_info(v):
                 'url': lines[6].strip().replace('url: ', '') if len(lines) > 6 else ""
             }
 
-def get_extracted_info(doc_id):
-    doc_key = str(doc_id)
-    if doc_key in extracted_info:
-        return extracted_info[doc_key]
+def get_extracted_info(url_id):
+    if url_id in extracted_info:
+        return extracted_info[url_id]
     return None
 
 def validate_request(required_fields, data):
