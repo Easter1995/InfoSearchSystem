@@ -187,7 +187,7 @@ def get_extraction():
 @app.route('/api/extract/rate', methods=['POST'])
 def save_extraction_rate():
     data = request.json
-    if not data or 'doc_id' not in data or 'rate' not in data:
+    if not data or 'doc_id' not in data or 'evaluation' not in data:
         return jsonify({"error": "Missing required fields: doc_id, rate"}), 400
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     try:
@@ -195,7 +195,7 @@ def save_extraction_rate():
         movie_title = doc_info['title']
     except:
         movie_title = f"Document {data['doc_id']}"
-    extracted_rate_file.write(f"MOVIE: {movie_title}, RATE: {data['rate']}, TIME: {timestamp}\n")
+    extracted_rate_file.write(f"MOVIE: {movie_title}, RATE: {data['evaluation']}, TIME: {timestamp}\n")
     extracted_rate_file.flush()
     return jsonify({"success": True, "message": "Rating saved successfully"}), 200
 

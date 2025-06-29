@@ -12,7 +12,7 @@ const userRate = ref(0)
 const showContent = ref(false)
 const showRate = ref(false)
 const rateFixed = ref(false)
-const extractRate = ref(0)
+const extractRate = ref<Map<string, number>>(new Map<string, number>())
 const searchList = ref<SearchResult>({
     results: [],
     corrections: [],
@@ -121,10 +121,10 @@ const handleRate = async (val: number) => {
 }
 
 const handleExtractRate = async (val: number, doc_id: string) => {
-    extractRate.value = val
+    extractRate.value?.set(doc_id, val)
     const res = await subExtractRate({
         doc_id,
-        evaluation: extractRate.value
+        evaluation: extractRate.value!.get(doc_id)!
     })
     // console.log(res)
     if (res.success) {
@@ -138,7 +138,7 @@ const handleExtractRate = async (val: number, doc_id: string) => {
             message: '出错了'
         })
     }
-    extractRate.value = 0
+    extractRate.value?.set(doc_id, 0)
 }
 </script>
 
@@ -213,8 +213,8 @@ const handleExtractRate = async (val: number, doc_id: string) => {
                             </div>
                             <el-divider></el-divider>
                             <div style="width: 100%; display: inline-flex; justify-content: right;">
-                                <el-rate v-model="extractRate" @change="(val: any) => handleExtractRate(val, item.url)"
-                                    size="large" allow-half />
+                                <el-rate :model-value="extractRate?.get(item.url) ?? 0"
+                                    @change="(val: any) => handleExtractRate(val, item.url)" size="large" allow-half />
                             </div>
                         </div>
                         <div v-else>
