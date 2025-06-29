@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getExtractedInfo, getInfo, subRate } from '@/api/search';
+import { getExtractedInfo, getInfo, subExtractRate, subRate } from '@/api/search';
 import { ExtractExtraInfo, SearchResult } from '@/typings/searchType';
 import { Search } from '@element-plus/icons-vue'
 import { ElLoading, ElNotification } from 'element-plus';
@@ -12,6 +12,7 @@ const userRate = ref(0)
 const showContent = ref(false)
 const showRate = ref(false)
 const rateFixed = ref(false)
+const extractRate = ref(0)
 const searchList = ref<SearchResult>({
     results: [],
     corrections: [],
@@ -118,6 +119,27 @@ const handleRate = async (val: number) => {
     userRate.value = 0
     showRate.value = false
 }
+
+const handleExtractRate = async (val: number, doc_id: string) => {
+    extractRate.value = val
+    const res = await subExtractRate({
+        doc_id,
+        evaluation: extractRate.value
+    })
+    // console.log(res)
+    if (res.success) {
+        ElNotification({
+            type: 'success',
+            message: res.message
+        })
+    } else {
+        ElNotification({
+            type: 'error',
+            message: '出错了'
+        })
+    }
+    extractRate.value = 0
+}
 </script>
 
 <template>
@@ -188,6 +210,11 @@ const handleRate = async (val: number) => {
                                         <div class="info">{{ pItem }}</div>
                                     </li>
                                 </ul>
+                            </div>
+                            <el-divider></el-divider>
+                            <div style="width: 100%; display: inline-flex; justify-content: right;">
+                                <el-rate v-model="extractRate" @change="(val: any) => handleExtractRate(val, item.url)"
+                                    size="large" allow-half />
                             </div>
                         </div>
                         <div v-else>

@@ -51,3 +51,8 @@ export interface ExtractSearchResult {
     type: string,
     total: number,
 }
+
+export interface ExtractRateQuery {
+    doc_id: string,
+    evaluation: number
+}
