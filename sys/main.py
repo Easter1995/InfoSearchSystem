@@ -35,25 +35,6 @@ with open('json/extracted_info.json', 'r') as f:
             url_id = item['url'].strip()
             extracted_info[url_id] = item['extracted']
 
-entity_index = {
-    'persons': {},
-    'organizations': {}, 
-    'locations': {},
-    'keywords': {}
-}
-
-def build_entity_index():
-    for url_id, extracted in extracted_info.items():
-        for entity_type in entity_index:
-            if entity_type in extracted:
-                for item in extracted[entity_type]:
-                    item_lower = item.lower()
-                    if item_lower not in entity_index[entity_type]:
-                        entity_index[entity_type][item_lower] = []
-                    entity_index[entity_type][item_lower].append(url_id)
-
-build_entity_index()
-
 rate_file = open('rate.txt', 'a')
 extracted_rate_file = open('extraction_rate.txt', 'a')
 
@@ -74,21 +55,6 @@ def get_extracted_info(url_id):
     if url_id in extracted_info:
         return extracted_info[url_id]
     return None
-
-def validate_request(required_fields, data):
-    for field in required_fields:
-        if field not in data or not str(data[field]).strip():
-            return False, f"Missing required field: {field}"
-    return True, None
-
-def search_entity_matches(query, entity_type, extracted_data):
-    if entity_type in extracted_data:
-        matches = [item for item in extracted_data[entity_type] if query in item.lower()]
-        if matches:
-            # 关键词的权重设为0.5，其他类型为1.0
-            weight = 0.5 if entity_type == 'keywords' else 1.0
-            return matches, len(matches) * weight
-    return [], 0
 
 def correct_spelling(words):
     corrected = []
@@ -186,7 +152,7 @@ def save_rate():
     if not data or 'query' not in data or 'rate' not in data:
         return jsonify({"error": "Missing fields"}), 400
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    rate_file.write(f"QUERY: {data['query']}, RATE:{data['rate']}, TIME: {timestamp}\n")
+    rate_file.write(f"QUERY: {data['query']}, RATE: {data['rate']}, TIME: {timestamp}\n")
     rate_file.flush()
     return jsonify({"success": True, "message": "Rating saved successfully"}), 200
 
@@ -218,106 +184,19 @@ def get_extraction():
     except Exception as e:
         return jsonify({"error": str(e), "success": False}), 500
 
-@app.route('/api/extract/search', methods=['GET'])
-def search_by_extraction():
-    query = request.args.get('q', '').lower()
-    info_type = request.args.get('type', 'all')
-    
-    if not query.strip():
-        return jsonify({"error": "Query cannot be empty"}), 400
-    
-    results = []
-    entity_types = ['persons', 'organizations', 'locations', 'keywords']
-    
-    try:
-        matching_docs = {}
-        types_to_search = [info_type] if info_type in entity_types else entity_types
-        
-        # 根据查询在倒排索引中搜索
-        for entity_type in types_to_search:
-            for entity, doc_ids in entity_index[entity_type].items():
-                if query in entity:
-                    weight = 0.5 if entity_type == 'keywords' else 1.0
-                    
-                    for doc_id in doc_ids:
-                        if doc_id not in matching_docs:
-                            matching_docs[doc_id] = {
-                                'score': 0,
-                                'details': {}
-                            }
-                        
-                        matching_docs[doc_id]['score'] += weight
-                        
-                        if entity_type not in matching_docs[doc_id]['details']:
-                            matching_docs[doc_id]['details'][entity_type] = []
-                        
-                        if entity not in matching_docs[doc_id]['details'][entity_type]:
-                            matching_docs[doc_id]['details'][entity_type].append(entity)
-        
-        # 处理匹配结果
-        for doc_id, match_info in matching_docs.items():
-            try:
-                basic_info = get_info(int(doc_id))
-                if 'keywords' in match_info['details']:
-                    match_info['details']['keywords'] = match_info['details']['keywords'][:10]
-                results.append({
-                    "doc_id": int(doc_id),
-                    "match_score": round(match_info['score'], 2),
-                    "match_details": match_info['details'],
-                    "basic_info": basic_info
-                })
-            except Exception as e:
-                print(f"处理文档 {doc_id} 时出错: {str(e)}")
-                continue
-
-        results.sort(key=lambda x: x['match_score'], reverse=True)
-        
-        return jsonify({
-            "query": query,
-            "type": info_type,
-            "total": len(results),
-            "results": results[:50],  # 限制返回结果数量
-            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        })
-    except Exception as e:
-        return jsonify({"error": str(e), "success": False}), 500
-    
-@app.route('/api/extract/stats', methods=['GET'])
-def extraction_stats():
-    stats = {
-        "total_documents": len(extracted_info),
-        "info_types": {
-            "persons": {"count": 0, "unique": set()},
-            "organizations": {"count": 0, "unique": set()},
-            "locations": {"count": 0, "unique": set()},
-            "keywords": {"count": 0, "unique": set()}
-        }
-    }
-    
-    for doc_id, extracted in extracted_info.items():
-        for info_type in stats["info_types"]:
-            if info_type in extracted and extracted[info_type]:
-                stats["info_types"][info_type]["count"] += len(extracted[info_type])
-                stats["info_types"][info_type]["unique"].update(extracted[info_type])
-
-    for info_type in stats["info_types"]:
-        unique_count = len(stats["info_types"][info_type]["unique"])
-        stats["info_types"][info_type]["unique_count"] = unique_count
-        del stats["info_types"][info_type]["unique"]
-    
-    return jsonify(stats)
-
 @app.route('/api/extract/rate', methods=['POST'])
 def save_extraction_rate():
     data = request.json
-    if not data or 'doc_id' not in data or 'evaluation' not in data:
-        return jsonify({"error": "Missing required fields: doc_id, evaluation"}), 400
+    if not data or 'doc_id' not in data or 'rate' not in data:
+        return jsonify({"error": "Missing required fields: doc_id, rate"}), 400
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    extracted_rate_file.write(f"DOC_ID: {data['doc_id']}, ")
-    extracted_rate_file.write(f"EVALUATION: {data['evaluation']}, ")
-    if 'comments' in data:
-        extracted_rate_file.write(f"COMMENTS: {data['comments']}, ")
-    extracted_rate_file.write(f"TIME: {timestamp}\n")
+    try:
+        doc_info = get_info(data['doc_id'])
+        movie_title = doc_info['title']
+    except:
+        movie_title = f"Document {data['doc_id']}"
+    extracted_rate_file.write(f"MOVIE: {movie_title}, RATE: {data['rate']}, TIME: {timestamp}\n")
+    extracted_rate_file.flush()
     return jsonify({"success": True, "message": "Rating saved successfully"}), 200
 
 if __name__ == '__main__':
