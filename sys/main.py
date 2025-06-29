@@ -187,8 +187,14 @@ def get_extraction():
 @app.route('/api/extract/rate', methods=['POST'])
 def save_extraction_rate():
     data = request.json
+<<<<<<< HEAD
     if not data or 'doc_id' not in data or 'rate' not in data:
         return jsonify({"error": "Missing required fields: doc_id, rate"}), 400
+=======
+    # print(data)
+    if not data or 'doc_id' not in data or 'evaluation' not in data:
+        return jsonify({"error": "Missing required fields: doc_id, evaluation"}), 400
+>>>>>>> 075b71c7e9fe11431192d9b300608a743e087041
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     try:
         doc_info = get_info(data['doc_id'])
