@@ -1,14 +1,15 @@
 >    
 
-> 基本要求：自己动手设计实现一个信息检索系统，中、英文皆可，数据源可以自选，数据通过开源的网络爬虫获取，规模不低于100篇文档，进行本地存储。中文可以分词（可用开源代码），也可以不分词，直接使用字作为基本单元。英文可以直接通过空格分隔。构建基本的倒排索引文件。实现基本的向量空间检索模型的匹配算法。用户查询输入可以是自然语言字串，查询结果输出按相关度从大到小排序，列出相关度、题目、主要匹配内容、URL、日期等信息。最好能对检索结果的准确率进行人工评价。界面不做强制要求，可以是命令行，也可以是可操作的界面。提交作业报告、源代码和演示视频。_
+> 基本要求：自己动手设计实现一个信息检索系统，中、英文皆可，数据源可以自选，数据通过开源的网络爬虫获取，规模不低于100篇文档，进行本地存储。中文可以分词（可用开源代码），也可以不分词，直接使用字作为基本单元。英文可以直接通过空格分隔。构建基本的倒排索引文件。实现基本的向量空间检索模型的匹配算法。用户查询输入可以是自然语言字串，查询结果输出按相关度从大到小排序，列出相关度、题目、主要匹配内容、URL、日期等信息。最好能对检索结果的准确率进行人工评价。界面不做强制要求，可以是命令行，也可以是可操作的界面。提交作业报告、源代码和演示视频。
+> 在信息检索系统的基础上实现一个信息抽取实验系统。特定领域语料根据自己的兴趣选定，对自己感兴趣的特定信息点进行抽取，并将结果展示出来。其中，特定信息点的个数不低于5个。可以调用开源的中英文自然语言处理基本模块，如分句、分词、命名实体识别、句法分析。信息抽取算法可以根据自己的兴趣选择，至少实现正则表达式匹配算法的特定信息点抽取。最好能对抽取结果的准确率进行人工评价。
 >
-> 扩展要求：鼓励有兴趣和有能力的同学积极尝试多媒体信息检索以及优化各模块算法。自主开展相关文献调研与分析，完成算法评估、优化、论证创新点的过程。
+> 扩展要求：鼓励有兴趣和有能力的同学积极尝试多媒体信息检索/抽取以及优化各模块算法。自主开展相关文献调研与分析，完成算法评估、优化、论证创新点的过程。
 >
 > 评分标准如下（按照100分计算）：
 >
-> 1、 完成基本的信息检索功能且有对环境和社会可持续发展影响的考虑，系统能够正常运行，并提交源代码和实验报告：60分；
+> 1、 完成基本的信息检索/抽取功能且有对环境和社会可持续发展影响的考虑，系统能够正常运行，并提交源代码和实验报告：60分；
 >
-> 2、 完成要求的信息检索功能且有对环境和社会可持续发展影响的考虑，系统能够正常运行，并按时提交源代码和实验报告：61~70分；
+> 2、 完成要求的信息检索/抽取功能且有对环境和社会可持续发展影响的考虑，系统能够正常运行，并按时提交源代码和实验报告：61~70分；
 >
 > 3、 在2的基础上，且实验报告撰写认真、思路清晰、表达准确：71~80分;
 >
@@ -16,7 +17,7 @@
 >
 > 5、 在4的基础上，融入了自己的创新性思考、优化算法或对多媒体信息检索进行了尝试：91-100分。
 
-<!-- 注释语句：导出PDF时会在这里分页 -->
+
 
 ## 使用说明
 
@@ -27,11 +28,20 @@
 
 ![image-20250522155502320](https://cdn.jsdelivr.net/gh/Easter1995/blog-image/202505221555552.png)
 
+查看抽取信息：
+- 点击`SHOW EXTRACTED ATTRIBUTES`可以同时查看多个文本的抽取信息
+- 在右下角可以对抽取信息进行打分
+
+![](https://cdn.nlark.com/yuque/0/2025/png/46069715/1751207904335-70100da4-2b69-4ef9-9fda-ca56c0190708.png)
+
+
 用户评分：
 
 - 可以滑动右下角的卡片，点击后提交评分
 
 <img src="https://cdn.jsdelivr.net/gh/Easter1995/blog-image/202505221555825.png" alt="image-20250522155545302" style="zoom:50%;" />
+
+
 
 ## 数据准备
 
@@ -335,7 +345,6 @@ with open('json/text_vector.json', 'w') as f:
 ```
 
 
-
 ## 用户查询
 具体代码在`sys\main.py`中。
 
@@ -454,7 +463,128 @@ def correct_spelling(words):
 
 在每⼀次⽤户进⾏搜索之后，可以在⻚⾯的右侧滑动卡片对本次搜索进⾏评分。评分结果将会发送到后端进⾏保存，具体文件位于项目的`rate.txt`，⽅便维护管理⼈员分析检索算法或数据源的不⾜。
 
-### API
+## 信息抽取
+初始化：
+
++ 导入 spaCy 库进行自然语言处理（NLP）
++ 加载英文小型模型 `en_core_web_sm`，支持命名实体识别、词性标注等功能
+
+实现算法：
+
++ 正则表达式匹配
++ 词性标注
++ 命名实体识别（NER）
+
+抽取信息点：
+
++ 基础信息：标题、评分、导演、编剧、主演
++ 语义信息：关键词（从简介中提取）
++ 实体信息：人物、组织、地点
+
+### 核心函数
+1. extract_info_from_text(lines)：从每个文档的文本行中提取基本信息和高级特征
+
+基本信息抽取
+
+```python
+info['title'] = lines[0].strip()      # 电影标题
+info['rate'] = lines[1].strip().replace('rate: ', '')  # 评分
+info['director'] = lines[2].strip()   # 导演
+info['writers'] = [w.strip() for w in lines[3].split('/') if w.strip()]  # 编剧列表
+info['stars'] = [s.strip() for s in lines[4].split('/') if s.strip()]    # 主演列表
+info['summary'] = lines[5].strip()    # 电影简介
+info['url'] = lines[6].strip().replace('url: ', '')  # URL链接
+```
+
++ 固定位置
++ 字符串替换
++ 分隔符解析
+
+自然语言处理
+
+```python
+doc = nlp(info['summary'])
+```
+
++ NLP流水线：
+    - 分析
+    - 词性标注
+    - 依存句法分析
+    - 命名实体识别
+    - 词形还原
+
+关键词提取：词性过滤、停用词过滤、词形还原、去重并限制数量
+
+```python
+keywords = [token.lemma_ for token in doc if token.pos_ in ['NOUN', 'VERB', 'ADJ'] and not token.is_stop]
+keywords = list(set(keywords))[:10]
+```
+
+命名实体识别
+
+```python
+persons = [ent.text for ent in doc.ents if ent.label_ == "PERSON"]         # 人物
+orgs = [ent.text for ent in doc.ents if ent.label_ == "ORG"]               # 组织机构
+locations = [ent.text for ent in doc.ents if ent.label_ in ["GPE", "LOC"]] # 地理位置
+```
+
++ spaCy NER 模型架构：
+    - 输入层：词汇嵌入 + 字符级CNN特征
+    - 编码层：双向LSTM/Transformer编码器
+    - 标注层：CRF (条件随机场) 进行序列标注
+    - 输出层：BIO标注方案 (Begin-Inside-Outside)
++ 处理流程：
+    - 特征提取
+    - 序列编码
+    - 标签预测
+    - 实体组装
+
+NLP和NER系统结合统计方法和深度学习，实现了对电影文本的智能化信息抽取，为后续的搜索和分析提供了丰富的结构化数据。
+
+2. 批处理函数
+
+`process_all_documents()`：遍历数据目录中所有文件进行信息抽取
+
+```python
+def process_all_documents():
+    extracted_data = []
+    for filename in os.listdir(DATA_DIR):
+        if filename.endswith('.txt'):
+            with open(os.path.join(DATA_DIR, filename), 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+                info = extract_info_from_text(lines)
+                if info:
+                    extracted_data.append(info)
+    return extracted_data
+```
+
+### 数据结构
+生成 JSON 文件的结构：
+
+```python
+[
+  {
+    "title": "电影标题",
+    "rate": "评分",
+    "director": "导演",
+    "writers": ["编剧1", "编剧2"],
+    "stars": ["主演1", "主演2"],
+    "summary": "电影简介",
+    "url": "链接地址",
+    "extracted": {
+      "keywords": ["关键词1", "关键词2", ...],
+      "persons": ["人名1", "人名2", ...],
+      "organizations": ["组织1", "组织2", ...],
+      "locations": ["地点1", "地点2", ...]
+    }
+  }
+]
+```
+
+
+
+## API
+### 信息搜索
 搜索
 
 ```python
@@ -486,4 +616,57 @@ def save_rate():
     rate_file.write(f"查询: {data['query']}, 评分: {data['rate']}, 时间: {timestamp}\n")
     rate_file.flush()
     return jsonify({"success": True, "message": "评价已记录"})
+```
+### 信息抽取
+返回信息抽取结果
+
+```python
+@app.route('/api/extract', methods=['GET'])
+def get_extraction():
+    doc_id = request.args.get('url')
+    if not doc_id:
+        return jsonify({"error": "Missing 'url' parameter"}), 400
+    try:
+        # basic_info = get_info(doc_id)
+        extracted = get_extracted_info(doc_id)
+        
+        if extracted:
+            return jsonify({
+                "doc_id": doc_id,
+                # "basic_info": basic_info,
+                "extracted_info": extracted,
+                "success": True
+            })
+        else:
+            return jsonify({
+                "doc_id": doc_id,
+                # "basic_info": basic_info,
+                "error": "No extraction data found for this document",
+                "success": False
+            }), 404
+            
+    except Exception as e:
+        return jsonify({"error": str(e), "success": False}), 500
+
+```
+
+评分
+
+```python
+@app.route('/api/extract/rate', methods=['POST'])
+def save_extraction_rate():
+    data = request.json
+    if not data or 'doc_id' not in data or 'evaluation' not in data:
+        return jsonify({"error": "Missing required fields: doc_id, rate"}), 400
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    movie_title = f"Document {data['doc_id']}"
+    url_to_find = data['doc_id'].strip()
+    
+    for item in extracted_info_list:
+        if 'url' in item and item['url'].strip() == url_to_find:
+            movie_title = item.get('title', movie_title)
+            break
+    extracted_rate_file.write(f"MOVIE: {movie_title}, RATE: {data['evaluation']}, TIME: {timestamp}\n")
+    extracted_rate_file.flush()
+    return jsonify({"success": True, "message": "Rating saved successfully"}), 200
 ```
